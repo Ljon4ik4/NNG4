@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Game v4.23.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-20\n"
-"PO-Revision-Date: 2026-07-26 17:48+0200\n"
+"PO-Revision-Date: 2026-07-26 18:04+0200\n"
 "Last-Translator: leo <leonid@ryvkin.eu>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: Game.Levels.LessOrEqual.L10le_one
 msgid "x ≤ 1"
@@ -257,7 +257,7 @@ msgstr ""
 "einfach\n"
 "deinen Cursor darüber und schau, was hervorgehoben wird. Bewege zum Beispiel\n"
 "den Cursor über beide §2-Symbole auf der linken Seite des Ziels, und\n"
-"du siehst, wo die unsichtbaren Klammern sind."
+"du wirst sehen, wo die unsichtbaren Klammern sind."
 
 #. §0: `rw [← one_eq_succ_zero]`
 #. §1: `succ 0`
@@ -269,9 +269,8 @@ msgstr "Versuche §0, um §1 in §2 umzuwandeln."
 # auflösen für unravel?
 #. §0: `1`
 #: Game.Levels.Tutorial.L07add_succ
-#, fuzzy
 msgid "Start by unravelling the §0."
-msgstr "Beginne damit, §0 aufzulösen."
+msgstr "Beginne damit, §0 zu entpacken."
 
 #: Game.Levels.Tutorial.L02rw
 msgid "the rw tactic"
@@ -478,7 +477,8 @@ msgstr "zero_pow_zero"
 #. §1: `b`
 #: Game.Levels.Addition.L03add_comm
 msgid "Induction on §0 or §1 -- it's all the same in this one."
-msgstr "Induktion über §0 oder §1 – in diesem Fall macht es keinen Unterschied."
+msgstr ""
+"Induktion über §0 oder §1 – in diesem Fall macht es keinen Unterschied."
 
 #: Game.Levels.Power.L05pow_two
 msgid "Note: this lemma will be useful for the final boss!"
@@ -623,7 +623,6 @@ msgstr ""
 msgid "Addition World"
 msgstr "Additions-Welt"
 
-# Nutzerin?
 # und wie genau sollte ich \\ vor den Anführungszeichen verstehen (auch anderswo)?
 #. §0: `P`
 #. §1: `exact h`
@@ -977,7 +976,7 @@ msgstr ""
 "dass die natürlichen Zahlen\n"
 "ein additives kommutatives Monoid bilden.\n"
 "\n"
-"Üben wir die Verwendung von §0 und §1 in einem weiteren Level,\n"
+"Lass uns die Verwendung von §0 und §1 in einem weiteren Level üben,\n"
 "bevor wir die Additions-Welt verlassen."
 
 #: Game.Levels.Implication.L05succ_inj2
