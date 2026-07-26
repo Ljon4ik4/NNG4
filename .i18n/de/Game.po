@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Game v4.23.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-20\n"
-"PO-Revision-Date: 2026-07-26 15:11+0200\n"
+"PO-Revision-Date: 2026-07-26 17:48+0200\n"
 "Last-Translator: leo <leonid@ryvkin.eu>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: de\n"
@@ -252,7 +252,7 @@ msgid ""
 "hover over both §2 symbols on the left hand side of the goal and\n"
 "you'll see where the invisible brackets are."
 msgstr ""
-"Denke daran: Wenn Lean §0 schreibt, steht das für §1.\n"
+"Denk daran: Wenn Lean §0 schreibt, steht das für §1.\n"
 "Wenn du dir nicht sicher bist, wo in einem Ausdruck die Klammern sind, bewege "
 "einfach\n"
 "deinen Cursor darüber und schau, was hervorgehoben wird. Bewege zum Beispiel\n"
@@ -368,7 +368,7 @@ msgstr "2+2=4"
 #. §1: `x = y → False`
 #: Game.Levels.Implication.L08ne
 msgid "Remember, §0 is *notation* for §1."
-msgstr "Denke daran: §0 ist eine *Notation* für §1."
+msgstr "Denk daran: §0 ist eine *Notation* für §1."
 
 #. §0: `a * b = 0`
 #. §1: `a = 0`
@@ -739,8 +739,8 @@ msgstr ""
 "\n"
 "Es gibt in diesem Spiel noch viele weitere Taktiken, aber du musst sie nur "
 "kennen, wenn du\n"
-"das Spiel weiter erkunden möchtest (zum Beispiel, wenn du dich entscheidest, "
-"das Spiel zu 100%\n"
+"das Spiel ausgiebiger erkunden möchtest (zum Beispiel, wenn du dich "
+"entscheidest, das Spiel mit einem Score von 100%\n"
 "abzuschließen)."
 
 #. §0: `(a + a + 1) + (b + b + 1) = (a + b + 1) + (a + b + 1)`
@@ -1000,7 +1000,7 @@ msgstr "§0 ist die Aussage, dass §1 gilt"
 msgid "If §0 and §1 then we can deduce a contradiction."
 msgstr "Wenn §0 und §1, dann können wir einen Widerspruch herleiten."
 
-# proof: statement at the end unclear
+# proof: statment appears twice, I don't know how to translate code listings.
 #. §0: `2 + 2 = 4`
 #. §1: $37$
 #. §2: $x$
@@ -1024,7 +1024,6 @@ msgstr "Wenn §0 und §1, dann können wir einen Widerspruch herleiten."
 #. §20: `add_zero x : x + 0 = x`
 #. §21: `proof : statement`
 #: Game.Levels.Tutorial.L05add_zero
-#, fuzzy
 msgid ""
 "We'd like to prove §0 but right now\n"
 "we can't even *state* it\n"
@@ -1070,7 +1069,7 @@ msgstr ""
 "§16 ist ein Beweis von §17 und §18 ist ein Beweis\n"
 "von §19.\n"
 "\n"
-"Wir schreiben §20, also §21."
+"Wir schreiben §20, also §21 („Beweis : Aussage“)."
 
 #. §0: `t = 0`
 #: Game.Levels.AdvMultiplication.L01mul_le_mul_right
@@ -2028,6 +2027,7 @@ msgstr ""
 "Wir haben vorhin einen ziemlich unbefriedigenden Beweis von §0 gegeben; "
 "liefere nun einen schöneren."
 
+# maybe add rw in the translation so t is clearer what umschreiben means
 #. §0: $n = 0$
 #. §1: `X = Y`
 #: Game.Levels.Addition.L01zero_add
@@ -2044,7 +2044,7 @@ msgstr ""
 "zweiten.\n"
 "Dieses erste Ziel ist der Induktionsanfang §0.\n"
 "\n"
-"Denke daran, dass du den Beweis jedes Lemmas umschreiben kannst, das in\n"
+"Denk daran, dass du mit dem Beweis jedes Lemmas umschreiben kannst, das in\n"
 "deinem Inventar sichtbar ist, oder jede Annahme, die über dem Ziel angezeigt "
 "wird,\n"
 "solange sie die Form §1 hat."
@@ -2744,6 +2744,7 @@ msgstr ""
 "oder du findest einen Weg,\n"
 "ihn zu benutzen."
 
+# the categroy is called Theoreme but the English text refers to Lemmas
 #. §0: `0`
 #. §1: `n`
 #. §2: `succ n`
@@ -2760,6 +2761,7 @@ msgstr ""
 #. §13: `two_eq_succ_one`
 #. §14: $2$
 #: Game.Levels.Tutorial.L03two_eq_ss0
+#, fuzzy
 msgid ""
 "## The birth of number.\n"
 "\n"
@@ -2788,7 +2790,8 @@ msgstr ""
 "Zahlen werden in Lean durch zwei Regeln definiert.\n"
 "\n"
 "* §0 ist eine Zahl.\n"
-"* Wenn §1 eine Zahl ist, dann ist der *Nachfolger* §2 von §3 eine Zahl.\n"
+"* Wenn §1 eine Zahl ist, dann ist der *Nachfolger* („successor“) §2 von §3 "
+"eine Zahl.\n"
 "\n"
 "Der Nachfolger von §4 bedeutet die Zahl nach §5. Lass uns zählen lernen\n"
 "und ein paar kleine Zahlen benennen.\n"
@@ -2801,7 +2804,7 @@ msgstr ""
 "\n"
 "Der *Beweis*, dass §12 gilt, heißt §13.\n"
 "Sieh dir für diesen und andere Beweise den Reiter „012“ in der Liste der "
-"Lemmata rechts an.\n"
+"Theoreme rechts an.\n"
 "\n"
 "Lass uns beweisen, dass §14 die Zahl nach der Zahl nach null ist."
 
@@ -3368,7 +3371,7 @@ msgstr ""
 #. §2: `b`
 #: Game.Levels.Tutorial.L05add_zero
 msgid "§0 will change §1 into §2."
-msgstr "§0 wird §1 in §2 ändern."
+msgstr "§0 wird §1 zu §2 ändern."
 
 #. §0: `apply h2 at h1`
 #. §1: `h1`
@@ -3741,6 +3744,7 @@ msgstr ""
 "wissen,\n"
 "dass §0 beide Umschreibungen auf einmal erledigt."
 
+# added clarification linking lemma and theorem
 #. §0: $0$
 #. §1: $0$
 #. §2: `37 + d = q`
@@ -3761,6 +3765,7 @@ msgstr ""
 #. §17: `+`
 #. §18: `012`
 #: Game.Levels.Tutorial.L07add_succ
+#, fuzzy
 msgid ""
 "Every number in Lean is either §0 or a successor. We know how to add §1,\n"
 "but we need to figure out how to add successors. Let's say we already know\n"
@@ -3786,7 +3791,7 @@ msgstr ""
 "bereits, dass §2 gilt. Was sollte das Ergebnis von §3 sein? Nun,\n"
 "§4 ist um eins größer als §5, also sollte §6 gleich §7 sein,\n"
 "die Zahl, die um eins größer als §8 ist. Allgemeiner sollte §9\n"
-"gleich §10 sein. Fügen wir das als Lemma hinzu.\n"
+"gleich §10 sein. Fügen wir dies als Lemma (d.h. „kleines Theorem“) hinzu.\n"
 "\n"
 "* §11\n"
 "\n"
@@ -4880,7 +4885,7 @@ msgstr ""
 "Dieses Ergebnis steht §6 im Weg. Wieder\n"
 "haben wir das Problem, dass wir §7 zu Dingen addieren, also müssen wir\n"
 "Induktion verwenden, um in die Fälle aufzuteilen, in denen §8 gilt\n"
-"beziehungsweise §9 einNachfolger ist."
+"beziehungsweise §9 ein Nachfolger ist."
 
 #. §0: `simp`
 #. §1: `simp`
@@ -5993,7 +5998,7 @@ msgstr ""
 "\n"
 "Bevor wir §6 verwenden können, müssen wir „für §7 einsetzen“.\n"
 "Das machen wir in Lean, indem wir das Ziel mit §8 *umschreiben*,\n"
-"mit der Taktik §9."
+"mit der Taktik §9 („rewrite“)."
 
 #. §0: ```
 #. symm
