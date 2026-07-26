@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Game v4.23.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-20\n"
-"PO-Revision-Date: 2026-07-26 20:51+0200\n"
+"PO-Revision-Date: 2026-07-26 21:08+0200\n"
 "Last-Translator: leo <leonid@ryvkin.eu>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: Game.Levels.LessOrEqual.L10le_one
 msgid "x ≤ 1"
@@ -266,7 +266,7 @@ msgstr ""
 msgid "Try §0 to change §1 into §2."
 msgstr "Versuche §0, um §1 in §2 umzuwandeln."
 
-# auflösen für unravel?
+# better word than entpacken?
 #. §0: `1`
 #: Game.Levels.Tutorial.L07add_succ
 msgid "Start by unravelling the §0."
@@ -477,7 +477,8 @@ msgstr "zero_pow_zero"
 #. §1: `b`
 #: Game.Levels.Addition.L03add_comm
 msgid "Induction on §0 or §1 -- it's all the same in this one."
-msgstr "Induktion über §0 oder §1 – in diesem Fall macht es keinen Unterschied."
+msgstr ""
+"Induktion über §0 oder §1 – in diesem Fall macht es keinen Unterschied."
 
 #: Game.Levels.Power.L05pow_two
 msgid "Note: this lemma will be useful for the final boss!"
@@ -648,7 +649,6 @@ msgstr "Additions-Welt"
 #. §22: `rw`
 #. §23: `add_zero`
 #: Game.Levels.Implication.L01exact
-#, fuzzy
 msgid ""
 "## Summary\n"
 "\n"
@@ -1655,7 +1655,6 @@ msgstr "Verwandle als Nächstes §0 mittels §2 in §1."
 msgid "intro practice"
 msgstr "Einführungs-Übung"
 
-# ist Objekt ok als Notation?
 #. §0: `n : ℕ`
 #. §1: `n`
 #. §2: `induction n with d hd`
@@ -1670,7 +1669,6 @@ msgstr "Einführungs-Übung"
 #. §9: `hd : 0 + d = d`
 #. §10: `0 + succ d = succ d`
 #: Game.Levels.Addition.L01zero_add
-#, fuzzy
 msgid ""
 "## Summary\n"
 "\n"
@@ -1976,17 +1974,15 @@ msgstr "sich das Leben einfach machen"
 
 # damit das Ziel\n
 # gleich der Hypothese wird.
-#
 # klingt komisch
 #. §0: `four_eq_succ_three`
 #: Game.Levels.Implication.L05succ_inj2
-#, fuzzy
 msgid ""
 "Now rewrite §0 backwards to make the goal\n"
 "equal to the hypothesis."
 msgstr ""
-"Schreibe nun §0 rückwärts um, damit das Ziel\n"
-"gleich der Hypothese wird."
+"Schreibe nun mit §0 rückwärts um, damit das Ziel\n"
+"sich der Hypothese angleicht."
 
 #: Game.Levels.Addition.L04add_assoc
 msgid "add_assoc (associativity of addition)"
@@ -2066,7 +2062,6 @@ msgstr ""
 "  Ich führe dich wieder durch dieses Level (vorausgesetzt, du bist im\n"
 "  Kommandozeilenmodus)."
 
-# brauchst wirklich Präzision klingt komisch
 #. §0: `add_zero c`
 #. §1: `c + 0 = c`
 #. §2: `b + 0`
@@ -2075,7 +2070,6 @@ msgstr ""
 #. §5: `rw [add_zero b]`
 #. §6: `rw [add_zero]`
 #: Game.Levels.Tutorial.L06add_zero2
-#, fuzzy
 msgid ""
 "§0 is a proof of §1 so that was what got rewritten.\n"
 "You can now change §2 to §3 with §4 or §5. You\n"
@@ -2187,14 +2181,12 @@ msgstr "add_left_eq_self"
 msgid "level completed with warnings… 🎭"
 msgstr "Level mit Warnungen abgeschlossen… 🎭"
 
-# unklar ob 'at h' in einen Deutschen Satz eingebaut werden sollte
 #. §0: `h2`
 #. §1: `x = y → False`
 #. §2: `apply`
 #. §3: `h2`
 #. §4: `at h1`
 #: Game.Levels.Implication.L08ne
-#, fuzzy
 msgid ""
 "Remember that §0 is a proof of §1. Try\n"
 "§2ing §3 either §4 or directly to the goal."
@@ -2503,11 +2495,11 @@ msgstr ""
 msgid "§0"
 msgstr "§0"
 
+# better word than 
 # aufgefaltet?
 #. §0: `zero_ne_succ`
 #. §1: `succ_inj`
 #: Game.Levels.Implication.L11two_add_two_ne_five
-#, fuzzy
 msgid ""
 "2 + 2 ≠ 5 is boring to prove in full, given only the tools we have "
 "currently.\n"
@@ -2516,9 +2508,10 @@ msgid ""
 msgstr ""
 "2 + 2 ≠ 5 vollständig zu beweisen ist langweilig, wenn man nur die Werkzeuge "
 "hat, die wir momentan haben.\n"
-"Um es etwas weniger schmerzhaft zu machen, habe ich alle Zahlen für dich "
+"Um es etwas weniger schmerzhaft zu machen, habe ich alle Zahlen bereits für di"
+"ch "
 "aufgefaltet.\n"
-"Schau, ob du §0 und §1 benutzen kannst, um das zu beweisen."
+"Schau, ob du §0 und §1 benutzen kannst, um das Ziel zu beweisen."
 
 #. §0: $x$
 #. §1: $y$
@@ -2742,7 +2735,6 @@ msgstr ""
 "oder du findest einen Weg,\n"
 "ihn zu benutzen."
 
-# the categroy is called Theoreme but the English text refers to Lemmas
 #. §0: `0`
 #. §1: `n`
 #. §2: `succ n`
@@ -2759,7 +2751,6 @@ msgstr ""
 #. §13: `two_eq_succ_one`
 #. §14: $2$
 #: Game.Levels.Tutorial.L03two_eq_ss0
-#, fuzzy
 msgid ""
 "## The birth of number.\n"
 "\n"
@@ -3762,7 +3753,6 @@ msgstr ""
 #. §17: `+`
 #. §18: `012`
 #: Game.Levels.Tutorial.L07add_succ
-#, fuzzy
 msgid ""
 "Every number in Lean is either §0 or a successor. We know how to add §1,\n"
 "but we need to figure out how to add successors. Let's say we already know\n"
@@ -3950,9 +3940,7 @@ msgstr ""
 msgid "You can now finish with §0."
 msgstr "Jetzt kannst du den Beweis mit §0 abschließen."
 
-# Titel so übersetzen?
 #: Game
-#, fuzzy
 msgid "Natural Number Game"
 msgstr "Natürliche-Zahlen-Spiel"
 
@@ -4786,7 +4774,6 @@ msgstr ""
 #. §2: `rfl`
 #. §3: `rw`
 #: Game.Levels.Tutorial.L01rfl
-#, fuzzy
 msgid ""
 "Congratulations! You completed your first verified proof!\n"
 "\n"
@@ -6790,7 +6777,7 @@ msgstr ""
 "existiert, und du weißt,\n"
 "dass §2 funktioniert, dann macht §3 Fortschritte.\n"
 "\n"
-"Da §4 eine Notation für „es existiert ein §5, sodass §6“ ist,\n"
+"Da §4 eine Notation für „es existiert ein §5, sodass §6“ gilt,\n"
 "kannst du bei Zielen der Form §7 Fortschritte machen, indem du §8 auf die\n"
 "Zahl anwendest, die im Grunde §9 ist (d. h. §10)\n"
 "\n"
