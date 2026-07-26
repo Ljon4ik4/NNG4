@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Game v4.23.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-20\n"
-"PO-Revision-Date: 2026-07-25 00:57+0200\n"
+"PO-Revision-Date: 2026-07-26 14:40+0200\n"
 "Last-Translator: leo <leonid@ryvkin.eu>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.04.3\n"
+"X-Generator: Poedit 3.9\n"
 
 #: Game.Levels.LessOrEqual.L10le_one
 msgid "x ≤ 1"
@@ -188,9 +188,8 @@ msgid ""
 msgstr ""
 "# Zusammenfassung\n"
 "\n"
-"Die §0-Taktik kann verwendet werden, um einem Level neue Hypothesen "
-"hinzuzufügen, aber natürlich\n"
-"musst du sie beweisen.\n"
+"Die §0-Taktik kann verwendet werden, um einem Level neue Hypothesen \n"
+"hinzuzufügen, aber natürlich musst du diese dann beweisen.\n"
 "\n"
 "\n"
 "## Beispiel\n"
@@ -200,19 +199,19 @@ msgstr ""
 "\n"
 "§2\n"
 "\n"
-"ausführst, erhältst du ein neues Ziel §3 zu beweisen, und nachdem du es\n"
+"ausführst, musst du ein neues Ziel §3 beweisen, und nachdem du es\n"
 "bewiesen hast, hast du eine neue Hypothese §4 in deinem ursprünglichen Ziel.\n"
 "\n"
 "## Beispiel\n"
 "\n"
-"Wenn du bereits einen Beweis dessen hast, was du §5 möchtest, kannst\n"
-"du ihn einfach sofort erzeugen. Wenn du zum Beispiel §6 und §7\n"
-"als Zahlobjekte hast, dann fügt\n"
+"Wenn du bereits einen Beweis dessen hast, was du mittels §5 als Hypothese\n"
+"hinzuzufügen möchtest, kannst du sie einfach sofort erzeugen.\n"
+"Wenn du zum Beispiel §6 und §7 als Zahl-Objekte hast, dann fügt\n"
 "\n"
 "§8\n"
 "\n"
 "direkt eine neue Hypothese §9\n"
-"zum Kontext hinzu, weil du gerade den Beweis dafür geliefert hast (§10).\n"
+"zum Kontext hinzu, weil du gerade den Beweis für sie geliefert hast (§10).\n"
 "\n"
 "## Beispiel\n"
 "\n"
@@ -267,8 +266,10 @@ msgstr ""
 msgid "Try §0 to change §1 into §2."
 msgstr "Versuche §0, um §1 in §2 umzuwandeln."
 
+# auflösen für unravel?
 #. §0: `1`
 #: Game.Levels.Tutorial.L07add_succ
+#, fuzzy
 msgid "Start by unravelling the §0."
 msgstr "Beginne damit, §0 aufzulösen."
 
@@ -314,14 +315,15 @@ msgstr ""
 "Auch wenn Lean ein Beweisassistent ist, ist im Moment ziemlich klar, dass wir "
 "noch nicht\n"
 "genug Material entwickelt haben, um ihn zu einem brauchbaren Taschenrechner "
-"zu machen. In der Algorithmus-Welt,\n"
-"einer eher informatiklastigen Welt, werden wir Maschinerie entwickeln, die\n"
+"zu machen.\n"
+"In der Algorithmen-Welt, einer eher Informatik-lastigen Welt, werden wir "
+"Maschinerie entwickeln, die\n"
 "Fragen wie diese viel einfacher und Ziele wie §1 machbar macht.\n"
 "Alternativ kannst du mehr Mathematik in der Fortgeschrittenen Additions-Welt "
 "betreiben, wo wir\n"
 "die Lemmata beweisen, die man für eine funktionierende Theorie der "
-"Ungleichungen braucht. Klicke auf „Home“ und\n"
-"entscheide deinen Weg."
+"Ungleichungen braucht.\n"
+"Klicke auf „Home“ und entscheide deinen Weg."
 
 #. §0: `2 + 2 = 4`
 #: Game.Levels.Tutorial
@@ -396,7 +398,6 @@ msgstr ""
 #. §15: `0`
 #. §16: `>_`
 #: Game.Levels.Addition.L01zero_add
-#, fuzzy
 msgid ""
 "In this level we're going to prove that §0, where §1 is a secret natural "
 "number.\n"
@@ -420,8 +421,8 @@ msgid ""
 "can swap\n"
 "back to \"Typewriter mode\" by clicking the §16 button in the top right.)"
 msgstr ""
-"In diesem Level werden wir beweisen, dass §0 gilt, wobei §1 eine geheime "
-"natürliche Zahl ist.\n"
+"In diesem Level werden wir beweisen, dass §0 gilt, wobei §1 eine "
+"geheimenatürliche Zahl ist.\n"
 "\n"
 "Moment, wissen wir das nicht bereits? Nein! Wir wissen, dass §2 gilt, aber "
 "das ist §3.\n"
@@ -430,14 +431,15 @@ msgstr ""
 "Die Schwierigkeit beim Beweis von §5 besteht darin, dass wir im Allgemeinen "
 "keine\n"
 "*Formel* für §6 haben; wir können §7 und §8 erst benutzen, sobald\n"
-"wir wissen, ob §9 gleich §10 oder ein Nachfolger ist. Die §11-Taktik teilt in "
-"diese beiden Fälle auf.\n"
+"wir wissen, ob §9 gleich §10 oder ein Nachfolger ist. Die §11-Taktik teilt "
+"das Problem\n"
+"in diese beiden Fälle auf.\n"
 "\n"
 "Der Induktionsanfang wird von uns verlangen, §12 zu beweisen, und der "
 "Induktionsschritt\n"
-"wird uns bitten zu zeigen, dass aus §13 auch §14 folgt. Weil\n"
-"§15 und Nachfolger die einzige Möglichkeit sind, Zahlen zu erzeugen, deckt "
-"das alle Fälle ab.\n"
+"wird uns auffordern zu zeigen, dass aus §13 auch §14 folgt. Weil\n"
+"§15 und Nachfolger die einzigen Möglichkeiten sind, Zahlen zu erzeugen, deckt "
+"dies alle Fälle ab.\n"
 "\n"
 "Versuche, deinen ersten Induktionsbeweis in Lean zu führen.\n"
 "\n"
@@ -464,7 +466,7 @@ msgstr ""
 "\n"
 "Du musst wissen, dass §0 rechtsassoziativ ist. Das bedeutet, dass\n"
 "§1 eigentlich für §2 steht.\n"
-"Das betrifft, wie §3 und §4 funktionieren."
+"Das beeinflusst, wie §3 und §4 funktionieren."
 
 #: Game.Levels.Power.L01zero_pow_zero
 msgid "zero_pow_zero"
@@ -474,8 +476,7 @@ msgstr "zero_pow_zero"
 #. §1: `b`
 #: Game.Levels.Addition.L03add_comm
 msgid "Induction on §0 or §1 -- it's all the same in this one."
-msgstr ""
-"Induktion über §0 oder §1 – in diesem Fall macht es keinen Unterschied."
+msgstr "Induktion über §0 oder §1 – in diesem Fall macht es keinen Unterschied."
 
 #: Game.Levels.Power.L05pow_two
 msgid "Note: this lemma will be useful for the final boss!"
@@ -512,7 +513,7 @@ msgid ""
 msgstr ""
 "In einem der am besten benannten Level des Spiels taucht ein wilder §0-Sub-"
 "Boss\n"
-"auf, während die Musik in einen Rausch übergeht. Was\n"
+"auf, während die Musik ihren Höhepunkt erreicht. Was\n"
 "könnte es danach noch über Potenzen zu beweisen geben?"
 
 #. §0: $x \\leq 0$
@@ -523,7 +524,6 @@ msgstr "Wenn §0, dann §1."
 
 #. §0: `apply h`
 #: Game.Levels.AdvMultiplication.L02mul_left_ne_zero
-#, fuzzy
 msgid "Now §0 and you can probably take it from here."
 msgstr "Wende jetzt §0 an, und den Rest schaffst du wahrscheinlich allein."
 
@@ -574,8 +574,8 @@ msgid ""
 "You can use §0 to rewrite at §1 instead\n"
 "of at the goal."
 msgstr ""
-"Du kannst §0 verwenden, um in §1 umzuschreiben, anstatt\n"
-"im Ziel."
+"Du kannst §0 verwenden, um in §1 anstatt\n"
+"im Ziel umzuschreiben."
 
 #. §0: `add_comm`
 #. §1: `b`
@@ -608,7 +608,7 @@ msgstr ""
 "\n"
 "§0 wendet die Taktik §1 wiederholt\n"
 "auf das Ziel an. Du musst diese Taktik nicht\n"
-"verwenden, sie beschleunigt manchmal einfach die Dinge.\n"
+"verwenden, sie beschleunigt die Sache manchmal einfach.\n"
 "\n"
 "## Beispiel\n"
 "\n"
@@ -621,6 +621,8 @@ msgstr ""
 msgid "Addition World"
 msgstr "Additions-Welt"
 
+# Nutzerin?
+# und wie genau sollte ich \\ vor den Anführungszeichen verstehen (auch anderswo)?
 #. §0: `P`
 #. §1: `exact h`
 #. §2: `h`
@@ -816,7 +818,7 @@ msgstr ""
 "\n"
 "### Beispiel\n"
 "\n"
-"Wenn §8, dann ändert §9 den Term §10 zu §11."
+"Wenn §8, dann ändert §9 den Ausdruck §10 zu §11."
 
 #. §0: $a$
 #. §1: $b$
@@ -886,7 +888,7 @@ msgid ""
 "make a proof of §15! So you will end up with no goals, meaning you have "
 "proved everything."
 msgstr ""
-"Das nächste Resultat, das wir in der §0-Welt brauchen, ist, dass aus §1 "
+"Das nächste Resultat, das wir in der §0-Welt brauchen, ist, dass aus §1 \n"
 "sowohl §2 als auch §3 folgt.\n"
 "Beweisen wir eine dieser Tatsachen in diesem Level und die andere im "
 "nächsten.\n"
@@ -894,7 +896,7 @@ msgstr ""
 "## Eine neue Taktik: §4\n"
 "\n"
 "Die Taktik §5 zerlegt ein Objekt oder eine Hypothese in die möglichen Arten,\n"
-"auf die es erzeugt worden sein könnte.\n"
+"auf die es beziehungsweise sie erzeugt worden sein könnte.\n"
 "\n"
 "Zum Beispiel möchtest du manchmal die beiden Fälle §6 und §7 getrennt "
 "behandeln,\n"
@@ -909,7 +911,7 @@ msgstr ""
 "denn eine falsche Aussage impliziert\n"
 "jede Aussage. Hier schließt §14 das Ziel, weil es *keine* Möglichkeiten "
 "gibt,\n"
-"einen Beweis von §15 zu erzeugen! Du erhältst also keine Ziele, was bedeutet, "
+"einen Beweis von §15 zu erzeugen! Du hast also keine Ziele, was bedeutet, "
 "dass du alles bewiesen hast."
 
 #. §0: `rfl`
@@ -919,7 +921,7 @@ msgid ""
 "under the goal and hit \"Execute\"."
 msgstr ""
 "Um die Taktik §0 zu verwenden, kannst du sie in das Textfeld\n"
-"unter dem Ziel eingeben und auf „Execute“ drücken."
+"unter dem Ziel eingeben und auf „Ausführen“ drücken."
 
 #. §0: $x=37$
 #. §1: $y=42$
@@ -935,7 +937,7 @@ msgid ""
 "will be helpful for you in Even-Odd World (when someone gets around to\n"
 "implementing it)."
 msgstr ""
-"Glückwunsch! Du hast die Algorithmus-Welt abgeschlossen. Diese Algorithmen\n"
+"Glückwunsch! Du hast die Algorithmen-Welt abgeschlossen. Diese Algorithmen\n"
 "werden dir in der Gerade/Ungerade-Welt helfen (sobald jemand dazu kommt,\n"
 "sie zu implementieren)."
 
@@ -955,7 +957,8 @@ msgstr ""
 "Viel Erfolg!\n"
 "\n"
 "  Ein letzter Tipp. Wenn §0, dann ändert §1 *alle* §2 in §3.\n"
-"  Wenn du nur eines davon ändern möchtest, sagen wir das 3., dann verwende\n"
+"  Wenn du nur eines davon ändern möchtest, sagen wir das dritte, dann "
+"verwende\n"
 "  §4."
 
 #. §0: `add_assoc`
@@ -995,6 +998,7 @@ msgstr "§0 ist die Aussage, dass §1 gilt"
 msgid "If §0 and §1 then we can deduce a contradiction."
 msgstr "Wenn §0 und §1, dann können wir einen Widerspruch herleiten."
 
+# proof: statement at the end unclear
 #. §0: `2 + 2 = 4`
 #. §1: $37$
 #. §2: $x$
@@ -1018,6 +1022,7 @@ msgstr "Wenn §0 und §1, dann können wir einen Widerspruch herleiten."
 #. §20: `add_zero x : x + 0 = x`
 #. §21: `proof : statement`
 #: Game.Levels.Tutorial.L05add_zero
+#, fuzzy
 msgid ""
 "We'd like to prove §0 but right now\n"
 "we can't even *state* it\n"
@@ -1042,13 +1047,13 @@ msgid ""
 "\n"
 "We write §20, so §21."
 msgstr ""
-"Wir würden gerne §0 beweisen, aber im Moment\n"
-"können wir es nicht einmal *formulieren*,\n"
-"weil wir die Addition noch nicht definiert haben.\n"
+"Wir würden gerne die Gleichung §0 beweisen, aber im Moment\n"
+"können wir sie nicht einmal *formulieren*,\n"
+"weil wir Addition noch nicht definiert haben.\n"
 "\n"
-"## Die Addition definieren.\n"
+"##  Addition definieren.\n"
 "\n"
-"Wie werden wir §1 zu einer beliebigen Zahl §2 addieren? Nun,\n"
+"Wie addieren wir §1 zu einer beliebigen Zahl §2? Nun,\n"
 "es gibt in diesem Spiel nur zwei Arten, Zahlen zu erzeugen: §3\n"
 "und Nachfolger. Um also §4 zu definieren, müssen wir\n"
 "wissen, was §5 ist und was §6 ist.\n"
@@ -1063,7 +1068,7 @@ msgstr ""
 "§16 ist ein Beweis von §17 und §18 ist ein Beweis\n"
 "von §19.\n"
 "\n"
-"Wir schreiben §20, also gilt §21."
+"Wir schreiben §20, also §21."
 
 #. §0: `t = 0`
 #: Game.Levels.AdvMultiplication.L01mul_le_mul_right
@@ -1080,15 +1085,14 @@ msgid ""
 msgstr ""
 "Mal sehen, ob du die Taktiken, die wir gelernt haben, verwenden kannst, um §0 "
 "zu beweisen.\n"
-"Versuche diese Aufgabe selbst; wenn du Hilfe brauchst, dann klicke auf „Show "
-"more help!“."
+"Versuche diese Aufgabe selbst; wenn du Hilfe brauchst, dann klicke auf „Mehr "
+"Hilfe“."
 
 #. §0: `apply zero_ne_succ at h`
 #: Game.Levels.Implication.L09zero_ne_succ
 #: Game.Levels.AdvMultiplication.L06mul_right_eq_one
-#, fuzzy
 msgid "Now you can §0."
-msgstr "Jetzt kannst du §0."
+msgstr "Jetzt kannst du §0 verwenden."
 
 #. §0: $37$
 #. §1: $x$
@@ -1123,9 +1127,9 @@ msgid ""
 "\n"
 "Prove that §10 by executing the §11 tactic."
 msgstr ""
-"# Lies das zuerst\n"
+"# Lies zuerst dashier\n"
 "\n"
-"Jedes Level in diesem Spiel besteht darin, einen mathematischen Satz zu "
+"In jedem Level dieses Spiels geht es darum, einen mathematischen Satz zu "
 "beweisen (das „Ziel“).\n"
 "Das Ziel ist eine Aussage über *Zahlen*. Einige Zahlen in diesem Spiel haben "
 "bekannte Werte.\n"
@@ -1139,7 +1143,7 @@ msgstr ""
 "\n"
 "Wir lösen Ziele in Lean mithilfe von *Taktiken*, und die erste Taktik, die "
 "wir\n"
-"lernen werden, heißt §8, die alle Sätze der Form §9 beweist.\n"
+"lernen werden, heißt §8. Sie beweist alle Sätze der Form §9.\n"
 "\n"
 "Beweise, dass §10 gilt, indem du die Taktik §11 ausführst."
 
@@ -1192,10 +1196,10 @@ msgid ""
 "walk you through this level."
 msgstr ""
 "Wenn §0 und §1 Zahlen sind, dann ist §2 ein Beweis\n"
-"dafür, dass §3 die Aussage §4 impliziert. Klicke im Tab *Peano*\n"
+"dafür, dass §3 die Gleichung §4 impliziert. Klicke im Tab *Peano*\n"
 "auf diesen Satz, um mehr zu erfahren.\n"
 "\n"
-"Bei Peano war dieser Satz ein Axiom, aber in der Algorithmus-Welt\n"
+"Bei Peano war dieser Satz ein Axiom, aber in der Algorithmen-Welt\n"
 "zeigen wir, wie man ihn in Lean beweist. Im Moment nehmen wir ihn einfach an\n"
 "und wollen mit seiner Hilfe §5 beweisen. Wieder gehen wir vor,\n"
 "indem wir unsere Hypothese so lange umformen, bis sie zum Ziel wird. Ich\n"
@@ -1213,8 +1217,8 @@ msgid ""
 msgstr ""
 "Zum Aufwärmen für §0 beweisen wir §1. Dazu müssen wir\n"
 "Peanos letztes Axiom §2 einführen, einen Beweis dafür, dass §3 gilt.\n"
-"Um mehr über dieses Resultat zu erfahren, klicke in der Liste der Lemmas "
-"rechts darauf."
+"Um mehr über dieses Resultat zu erfahren, klicke in der Liste der Lemmata auf "
+"der rechten Seite darauf."
 
 #. §0: $x+y=37$
 #. §1: $3x+z=42$
@@ -1273,7 +1277,7 @@ msgstr ""
 "\n"
 "Mit §3 zu beginnen ist zu naiv, denn im Induktionsschritt\n"
 "lautet die Hypothese §4, aber was wir wissen, ist §5,\n"
-"sodass die Induktionsvoraussetzung nicht passt!\n"
+"sodass die Induktionsvoraussetzung nicht anwendbar ist!\n"
 "\n"
 "Nehmen wir an, §6 sei fest. Die eigentliche Aussage, die wir per Induktion "
 "über §7 beweisen wollen, lautet\n"
@@ -1357,17 +1361,19 @@ msgid ""
 msgstr ""
 "Multiplikation macht eine Zahl normalerweise größer, aber Multiplikation mit "
 "null kann sie\n"
-"kleiner machen. Deshalb brauchen viele Lemmas über Ungleichungen und "
+"kleiner machen. Deshalb brauchen viele Lemmata über Ungleichungen und "
 "Multiplikation die\n"
-"Hypothese §0. Hier ist ein zentrales Lemma, das es uns erlaubt, diese "
+"Hypothese §0. Hier ist ein zentrales Lemma, welches uns erlaubt, diese "
 "Hypothese zu verwenden.\n"
 "Als Hilfe für den Beweis können wir die Taktik §1 verwenden. Klicke rechts "
 "auf den Namen der Taktik,\n"
 "um zu sehen, was sie tut."
 
+# zerlegen?
 #. §0: `cases`
 #. §1: `hxy`
 #: Game.Levels.LessOrEqual.L04le_trans
+#, fuzzy
 msgid ""
 "In this level, we see inequalities as *hypotheses*. We have not seen this "
 "before.\n"
@@ -1375,7 +1381,7 @@ msgid ""
 msgstr ""
 "In diesem Level betrachten wir Ungleichungen als *Hypothesen*. Das haben wir "
 "vorher noch nicht gesehen.\n"
-"Mit der Taktik §0 kann man §1 zerlegen."
+"Mit der Taktik §0 kann man §1 in Fälle zerlegen."
 
 #. §0: `a`
 #. §1: `b`
@@ -1460,7 +1466,6 @@ msgstr "x ≤ y und y ≤ x impliziert x = y"
 #. §5: `apply`
 #. §6: $P \\implies P \\lor Q.$
 #: Game.Levels.LessOrEqual.L07or_symm
-#, fuzzy
 msgid ""
 "# Summary\n"
 "The §0 tactic changes a goal of §1 into a goal of §2.\n"
@@ -1474,7 +1479,7 @@ msgid ""
 "one."
 msgstr ""
 "# Zusammenfassung\n"
-"Die Taktik §0 verwandelt ein Ziel der Form §1 in ein Ziel der Form §2.\n"
+"Die Taktik §0 verwandelt ein Ziel §1 in §2.\n"
 "Benutze sie, wenn deine Hypothesen garantieren, dass §3\n"
 "nur deshalb wahr ist, weil in Wirklichkeit §4 wahr ist.\n"
 "\n"
@@ -1632,12 +1637,11 @@ msgstr ""
 #. §0: `add_right_eq_zero`
 #. §1: `symm at`
 #: Game.Levels.LessOrEqual.L05le_zero
-#, fuzzy
 msgid ""
 "You want to use §0, which you already\n"
 "proved, but you'll have to start with §1 your hypothesis."
 msgstr ""
-"Du möchtest §0 verwenden, das du bereits\n"
+"Du möchtest das Lemma §0 verwenden, das du bereits\n"
 "bewiesen hast, aber du musst damit beginnen, §1 auf deine Hypothese "
 "anzuwenden."
 
@@ -1646,13 +1650,13 @@ msgstr ""
 #. §2: `rw [one_eq_succ_zero]`
 #: Game.Levels.Tutorial.L03two_eq_ss0
 msgid "Next turn §0 into §1 with §2."
-msgstr "Verwandle als Nächstes §0 mit §2 in §1."
+msgstr "Verwandle als Nächstes §0 mittels §2 in §1."
 
 #: Game.Levels.Implication.L07intro2
-#, fuzzy
 msgid "intro practice"
-msgstr "intro-Übung"
+msgstr "Einführungs-Übung"
 
+# ist Objekt ok als Notation?
 #. §0: `n : ℕ`
 #. §1: `n`
 #. §2: `induction n with d hd`
@@ -1667,6 +1671,7 @@ msgstr "intro-Übung"
 #. §9: `hd : 0 + d = d`
 #. §10: `0 + succ d = succ d`
 #: Game.Levels.Addition.L01zero_add
+#, fuzzy
 msgid ""
 "## Summary\n"
 "\n"
@@ -1725,7 +1730,7 @@ msgid ""
 msgstr ""
 "Du kannst §0 auf mindestens drei Arten beweisen.\n"
 "Entweder per Induktion, oder mit §1, oder\n"
-"mithilfe der Kommutativität. Was denkst du, was am schnellsten geht?"
+"mithilfe der Kommutativität. Was denkst du, welche Art ist die schnellste?"
 
 #. §0: `succ a + «{d}»`
 #. §1: `(succ a) + «{d}»`
@@ -1736,14 +1741,14 @@ msgid ""
 "on any §2 in the goal or assumptions to see what exactly it's eating."
 msgstr ""
 "Beachte, dass §0 für §1 steht. Setze deinen Cursor\n"
-"auf ein beliebiges §2 im Ziel oder in den Annahmen, um zu sehen, was genau es "
-"verschlingt."
+"auf ein beliebiges §2 im Ziel oder in den Annahmen, um zu sehen, worauf genau "
+"es angewendet wird."
 
 #. §0: `cases «{h}» with hx hy`
 #: Game.Levels.LessOrEqual.L07or_symm
 msgid "We don't know whether to go left or right yet. So start with §0."
 msgstr ""
-"Wir wissen noch nicht, ob wir nach links oder rechts gehen sollen. Beginne "
+"Wir wissen noch nicht, ob wir nach links oder rechts gehen sollten. Beginne "
 "also mit §0."
 
 #. §0: $2$
@@ -1769,8 +1774,8 @@ msgstr ""
 "Dazu müssen wir Dinge wie §1 ausschließen.\n"
 "Das machen wir, indem wir beweisen, dass jeder Faktor von §2 höchstens §3 "
 "ist,\n"
-"wozu wir dieses Lemma verwenden. Der Beweis, den ich im Sinn habe, formt die "
-"Hypothese um,\n"
+"wozu wir dieses Lemma verwenden werden. Der Beweis, den ich im Sinn habe, "
+"formt die Hypothese um,\n"
 "bis sie zum Ziel wird, unter Verwendung von §4, §5 und\n"
 "§6."
 
@@ -1783,8 +1788,8 @@ msgid ""
 "We're going to change that §0 into §1. Start by changing it into\n"
 "§2 by executing §3."
 msgstr ""
-"Wir werden dieses §0 in §1 umwandeln. Beginne damit, es durch Ausführen\n"
-"von §3 in §2 umzuwandeln."
+"Wir werden dieses §0 in §1 umwandeln. Beginne damit, es  in §2 umzuwandeln,\n"
+"indem du §3 ausführst."
 
 #. §0: `contrapose! h`
 #: Game.Levels.Algorithm.L07succ_ne_succ
@@ -1822,7 +1827,7 @@ msgstr ""
 #. §0: `exact`
 #: Game.Levels.Implication.L03apply
 msgid "Now finish using the §0 tactic."
-msgstr "Beende es nun mit der Taktik §0."
+msgstr "Schließe das Ziel nun mit der Taktik §0."
 
 #. §0: `37 ^ n`
 #. §1: `37 ^ 0`
@@ -1942,11 +1947,13 @@ msgstr ""
 "Aber halt! Dieser Boss regt sich...und verwandelt sich in eine zweite, "
 "mächtigere Form!"
 
+# inhaltlich umgekehrt, auch im Englischen?
 #. §0: $a$
 #. §1: $b$
 #. §2: $c$
 #. §3: $(a + b) \\times c = ac + bc$
 #: Game.Levels.Multiplication.L08add_mul
+#, fuzzy
 msgid ""
 "Addition is distributive over multiplication.\n"
 "In other words, for all natural numbers §0, §1 and §2, we have\n"
@@ -1962,12 +1969,19 @@ msgstr ""
 msgid "§0 is the proof §1."
 msgstr "§0 ist der Beweis §1."
 
+# im Kontext verifizieren
 #: Game.Levels.Algorithm.L03add_algo2
+#, fuzzy
 msgid "making life simple"
-msgstr "das Leben einfach machen"
+msgstr "sich das Leben einfach machen"
 
+# damit das Ziel\n
+# gleich der Hypothese wird.
+#
+# klingt komisch
 #. §0: `four_eq_succ_three`
 #: Game.Levels.Implication.L05succ_inj2
+#, fuzzy
 msgid ""
 "Now rewrite §0 backwards to make the goal\n"
 "equal to the hypothesis."
@@ -2052,6 +2066,7 @@ msgstr ""
 "  Ich führe dich wieder durch dieses Level (vorausgesetzt, du bist im\n"
 "  Kommandozeilenmodus)."
 
+# brauchst wirklich Präzision klingt komisch
 #. §0: `add_zero c`
 #. §1: `c + 0 = c`
 #. §2: `b + 0`
@@ -2060,6 +2075,7 @@ msgstr ""
 #. §5: `rw [add_zero b]`
 #. §6: `rw [add_zero]`
 #: Game.Levels.Tutorial.L06add_zero2
+#, fuzzy
 msgid ""
 "§0 is a proof of §1 so that was what got rewritten.\n"
 "You can now change §2 to §3 with §4 or §5. You\n"
@@ -2067,7 +2083,7 @@ msgid ""
 msgstr ""
 "§0 ist ein Beweis von §1, also wurde genau das umgeschrieben.\n"
 "Du kannst nun §2 mit §4 oder §5 zu §3 ändern.\n"
-"Normalerweise kommst du mit §6 aus, außer du brauchst wirklich Präzision."
+"Normalerweise kommst du mit §6 aus, außer du brauchst echte Präzision."
 
 #: Game.Levels.AdvAddition.L01add_right_cancel
 msgid "add_right_cancel"
@@ -2080,7 +2096,7 @@ msgid ""
 "Now rewrite §0 backwards at §1\n"
 "to get the right hand side."
 msgstr ""
-"Schreibe nun §0 rückwärts bei §1 um,\n"
+"Schreibe nun §0 rückwärts an §1 um,\n"
 "um die rechte Seite zu erhalten."
 
 #. §0: `decide`
@@ -2135,7 +2151,7 @@ msgstr ""
 "so behandeln kannst wie jede Implikation §8. Wenn\n"
 "zum Beispiel dein *Ziel* die Form §9 hat, dann kommst du\n"
 "mit §10 weiter, und wenn du eine Hypothese §11 der\n"
-"Form §12 hast, dann kannst du §13, falls §14 ein Beweis\n"
+"Form §12 hast, dann kannst du §13 anwenden, falls §14 ein Beweis\n"
 "von §15 ist."
 
 #. §0: `mul_assoc a b c`
@@ -2171,6 +2187,7 @@ msgstr "add_left_eq_self"
 msgid "level completed with warnings… 🎭"
 msgstr "Level mit Warnungen abgeschlossen… 🎭"
 
+# unklar ob 'at h' in einen Deutschen Satz eingebaut werden sollte
 #. §0: `h2`
 #. §1: `x = y → False`
 #. §2: `apply`
@@ -2182,14 +2199,13 @@ msgid ""
 "Remember that §0 is a proof of §1. Try\n"
 "§2ing §3 either §4 or directly to the goal."
 msgstr ""
-"Denke daran, dass §0 ein Beweis von §1 ist. Versuche, §3 mit der §2-Taktik\n"
+"Denk daran, dass §0 ein Beweis von §1 ist. Versuche, §3 mit der §2-Taktik\n"
 "anzuwenden, entweder §4 oder direkt auf das Ziel."
 
 #. §0: `apply mul_left_cancel at h`
 #: Game.Levels.AdvMultiplication.L10mul_right_eq_self
-#, fuzzy
 msgid "You can now §0"
-msgstr "Du kannst nun §0 ausführen."
+msgstr "Du kannst nun §0 ausführen"
 
 #. §0: `x * y = 1 → x = 1`
 #. §1: `x + y = 0 → x = 0`
@@ -2225,7 +2241,6 @@ msgstr "Versuche §0."
 #. §1: `2 + 2 = 4`
 #. §2: `x + y = y + x`
 #: Game
-#, fuzzy
 msgid ""
 "# Welcome to the Natural Number Game\n"
 "#### An introduction to mathematical proof.\n"
@@ -2258,19 +2273,20 @@ msgid ""
 "resources,\n"
 "links, and ways to interact with the Lean community."
 msgstr ""
-"# Willkommen im Natural Number Game\n"
+"# Willkommen im Natürliche-Zahlen-Spiel\n"
 "#### Eine Einführung in mathematische Beweise.\n"
 "\n"
 "In diesem Spiel bauen wir die grundlegende Theorie der natürlichen\n"
 "Zahlen §0 von Grund auf auf. Unser erstes Ziel ist es, zu beweisen,\n"
 "dass §1 gilt. Als Nächstes beweisen wir, dass §2 gilt.\n"
 "Und am Ende schauen wir, ob wir Fermats letzten Satz beweisen können.\n"
-"Das machen wir, indem wir Level eines Computer-Puzzlespiels namens Lean "
+"Das machen wir, indem wir Level eines Computer-Rätselspiels namens Lean "
 "lösen.\n"
 "\n"
 "# Lies das hier.\n"
 "\n"
-"Zu lernen, wie man einen interaktiven Theorembeweiser benutzt, braucht Zeit.\n"
+"Zu lernen, wie man einen interaktiven Theorem-Beweiser benutzt, braucht "
+"Zeit.\n"
 "Tests zeigen, dass diejenigen am meisten von diesem Spiel profitieren,\n"
 "die die Hilfetexte wie diesen hier lesen.\n"
 "\n"
@@ -2280,14 +2296,14 @@ msgstr ""
 "Welten, die es in der alten Lean-3-Version nicht gab. Weitere neue Welten\n"
 "wie die Starke-Induktions-Welt, die Gerade/Ungerade-Welt und die Primzahlen-"
 "Welt\n"
-"sind in Entwicklung; wenn du ihren Stand sehen oder sogar mithelfen möchtest, "
-"schau dir\n"
+"sind in Entwicklung; wenn du ihren Fortschritt sehen oder sogar bei ihrer "
+"Erschaffung mithelfen möchtest, schau dir\n"
 "die [Issues im GitHub-Repository](https://github.com/leanprover-community/"
 "NNG4/issues) an.\n"
 "\n"
 "## Mehr\n"
 "\n"
-"Klicke oben rechts auf die drei Striche und wähle „Game Info“ für "
+"Klicke oben rechts auf die drei Striche und wähle „Spielinfo“ für "
 "Ressourcen,\n"
 "Links und Möglichkeiten, mit der Lean-Community zu interagieren."
 
@@ -2319,8 +2335,8 @@ msgid ""
 msgstr ""
 "# Zusammenfassung\n"
 "\n"
-"§0 versucht, ein Ziel zu lösen, wenn es einen Algorithmus finden kann, den "
-"es\n"
+"Die Taktik §0 versucht, ein Ziel zu lösen, wenn sie einen Algorithmus finden "
+"kann, den sie\n"
 "ausführen kann, um es zu lösen.\n"
 "\n"
 "## Beispiel\n"
@@ -2358,7 +2374,6 @@ msgstr ""
 #. §13: `rw [two_eq_succ_one]`
 #. §14: `succ 1 + succ 1 = 4`
 #: Game.Levels.Tutorial.L02rw
-#, fuzzy
 msgid ""
 "## Summary\n"
 "\n"
@@ -2465,8 +2480,8 @@ msgid ""
 msgstr ""
 "Mach das noch einmal!\n"
 "\n"
-"§0 versucht, die Argumente für §1 auszufüllen (und findet §2), dann ersetzt "
-"es alle\n"
+"Der Ausdruck §0 versucht, die Argumente für §1 auszufüllen (und findet §2), "
+"dann ersetzt es alle\n"
 "Vorkommen von §3, die es findet. Deswegen hat es §4 noch nicht umgeschrieben."
 
 #. §0: `a`
@@ -2487,9 +2502,11 @@ msgstr ""
 msgid "§0"
 msgstr "§0"
 
+# aufgefaltet?
 #. §0: `zero_ne_succ`
 #. §1: `succ_inj`
 #: Game.Levels.Implication.L11two_add_two_ne_five
+#, fuzzy
 msgid ""
 "2 + 2 ≠ 5 is boring to prove in full, given only the tools we have "
 "currently.\n"
@@ -2498,7 +2515,7 @@ msgid ""
 msgstr ""
 "2 + 2 ≠ 5 vollständig zu beweisen ist langweilig, wenn man nur die Werkzeuge "
 "hat, die wir momentan haben.\n"
-"Um es etwas weniger schmerzhaft zu machen, habe ich alle Numerale für dich "
+"Um es etwas weniger schmerzhaft zu machen, habe ich alle Zahlen für dich "
 "aufgefaltet.\n"
 "Schau, ob du §0 und §1 benutzen kannst, um das zu beweisen."
 
@@ -2508,7 +2525,7 @@ msgstr ""
 #. §3: $y \\leq x$
 #: Game.Levels.LessOrEqual.L08le_total
 msgid "If §0 and §1 are numbers, then either §2 or §3."
-msgstr "Wenn §0 und §1 Zahlen sind, dann gilt entweder §2 oder §3."
+msgstr "Wenn §0 und §1 Zahlen sind, dann gilt §2 oder §3."
 
 #. §0: `a ≤ b`
 #. §1: `a ≤ b`
@@ -2540,7 +2557,9 @@ msgstr ""
 "\n"
 "Klicke auf „Start“, um fortzufahren."
 
+# Hier Übersetzernamen?
 #: Game
+#, fuzzy
 msgid ""
 "*Game version: 4.3*\n"
 "\n"
@@ -2611,6 +2630,7 @@ msgstr ""
 "* **Ursprüngliche Lean3-Version:** Kevin Buzzard, Mohammad Pedramfar\n"
 "* **Spiel-Engine:** Alexander Bentkamp, Jon Eugster, Patrick Massot\n"
 "* **Zusätzliche Level:** Sian Carey, Ivan Farabella, Archie Browne.\n"
+"* **Deutsche Übersetzung:** Leonid Ryvkin.\n"
 "* **Weiterer Dank:** An alle studentischen Beta-Testerinnen, alle Schulen,\n"
 "die Kevin zu einem Vortrag eingeladen haben, und alle Schulkinder, die ihm "
 "Fragen\n"
@@ -2620,7 +2640,7 @@ msgstr ""
 "\n"
 "* Das [Lean-Zulip-Chat](https://leanprover.zulipchat.com/)-Forum\n"
 "* [Ursprüngliche Lean3-Version](https://github.com/ImperialCollegeLondon/"
-"natural_number_game/) (wird nicht mehr gepflegt)\n"
+"natural_number_game/) (wird nicht mehr aktualisiert)\n"
 "\n"
 "## Probleme?\n"
 "\n"
@@ -2691,14 +2711,15 @@ msgstr ""
 "\n"
 "Optionaler Zusatz: Du kannst diesen Beweis selbst ausführen. Schalte das "
 "Spiel in den „Editor-Modus“, indem du\n"
-"oben rechts auf den Knopf §1 klickst. Du kannst nun deinen Beweis\n"
-"als mehrere Codezeilen sehen. Bewege deinen Cursor zwischen den Zeilen, um\n"
+"oben rechts auf den Button §1 klickst. Du kannst nun deinen Beweis\n"
+"als mehrere Codezeilen aufgeschrieben sehen. Bewege deinen Cursor zwischen "
+"den Zeilen, um\n"
 "den Zielzustand an jeder Stelle zu sehen. Schneide nun deinen Code aus und "
 "füge ihn woanders ein, wenn du\n"
 "ihn speichern willst, und füge stattdessen den obigen Beweis ein. Bewege "
-"deinen Cursor\n"
-"herum, um alles zu erkunden. Wenn du fertig bist, klicke oben rechts auf den "
-"Knopf §2, um\n"
+"deinen Cursor,\n"
+" um alles zu erkunden. Wenn du fertig bist, klicke oben rechts auf den Button "
+"§2, um\n"
 "in den „Schreibmaschinen-Modus“ zurückzukehren.\n"
 "\n"
 "Du hast die Tutorial-Welt abgeschlossen!\n"
@@ -2841,8 +2862,9 @@ msgid ""
 "§0 is the theorem that §1\n"
 "Two ways to do it spring to mind; I'll mention them when you've solved it."
 msgstr ""
-"§0 ist der Satz, dass §1\n"
-"Mir fallen zwei Wege ein, es zu tun; ich erwähne sie, wenn du es gelöst hast."
+"§0 ist der Satz, dass §1 gilt\n"
+"Mir fallen zwei Wege ein, dies zu beweisen; ich erwähne sie, wenn du das "
+"Level gelöst hast."
 
 #. §0: $2+2=4$
 #. §1: $a+b+c+d+e=e+d+c+b+a$
@@ -2854,7 +2876,7 @@ msgid ""
 "Click on \"Start\" to proceed."
 msgstr ""
 "Beweise wie §0 und §1 sind von Hand sehr mühsam.\n"
-"In der Algorithmus-Welt lernen wir, wie wir den Computer dazu bringen, sie "
+"In der Algorithmen-Welt lernen wir, wie wir den Computer dazu bringen, sie "
 "für uns zu erledigen.\n"
 "\n"
 "Klicke auf „Start“, um fortzufahren."
@@ -2872,8 +2894,9 @@ msgid ""
 "See if you can take it from here. Look at the new lemmas and tactic\n"
 "available on the right."
 msgstr ""
-"Schau, ob du ab hier weiterkommst. Sieh dir die neuen Lemmas und die neue\n"
-"Taktik rechts an."
+"Schau, ob du ab hier selbst weiterkommst. Sieh dir die neuen Lemmata und die "
+"neue\n"
+"verfügbare Taktik rechts an."
 
 #. §0: `rw [add_left_comm b c]`
 #. §1: `b`
@@ -2950,8 +2973,8 @@ msgstr ""
 "keinen §5-Term *direkt* im Ziel.\n"
 "\n"
 "Verwende Assoziativität und Kommutativität, um §6 zu beweisen.\n"
-"Du brauchst keine Induktion. §7 verschiebt Klammern,\n"
-"und §8 verschiebt Variablen.\n"
+"Du brauchst keine Induktion. §7 bewegt Klammern,\n"
+"und §8 bewegt Variablen.\n"
 "\n"
 "Denk daran, dass du gezieltere Umschreibungen machen kannst, indem du\n"
 "explizite Variablen als Eingaben für Sätze angibst. Zum Beispiel wird §9\n"
@@ -3160,8 +3183,8 @@ msgstr ""
 "* §15 (ändert §16 zu §17 in zwei Hypothesen und im Ziel;\n"
 "das Symbol §18 bekommst du mit §19.)\n"
 "\n"
-"* §20 ändert weiterhin §21 zu §22,\n"
-"bis es keine Übereinstimmungen mehr für §23 gibt.\n"
+"* §20 ändert wiederholt §21 zu §22,\n"
+"bis §23 nicht mehr vorkommt.\n"
 "\n"
 "* §24 ändert nur das zweite §25 im Ziel zu §26.\n"
 "\n"
@@ -3170,15 +3193,15 @@ msgstr ""
 "Wenn du die Annahme §27 hast und dein Ziel\n"
 "§28\n"
 "\n"
-"ist, dann\n"
+"ist, dann ändert\n"
 "\n"
 "§29\n"
 "\n"
-"wird das Ziel in §30 ändern, und dann\n"
+"das Ziel in §30, und dann ändert\n"
 "\n"
 "§31\n"
 "\n"
-"wird das Ziel in §32 ändern, was\n"
+"das Ziel in §32, was\n"
 "mit §33 gelöst werden kann.\n"
 "\n"
 "### Beispiel:\n"
@@ -3223,7 +3246,7 @@ msgstr ""
 "\n"
 "Wenn du dir den Namen des Beweises einer Gleichheit nicht merken kannst, "
 "schau ihn\n"
-"in der Liste der Lemmas rechts nach.\n"
+"in der Liste der Lemmata rechts nach.\n"
 "\n"
 "## Gezielte Verwendung\n"
 "\n"
@@ -3235,9 +3258,9 @@ msgstr ""
 "§74 ein Beweis dafür ist, dass §75 gilt, §76 ein Beweis dafür ist,\n"
 "dass §77 gilt, und §78 ein Beweis dafür ist, dass §79 gilt.\n"
 "\n"
-"Wenn §80, dann verwandelt §81 alle §82 in §83.\n"
+"Wenn du §80 hast, dann verwandelt §81 alle §82 in §83.\n"
 "Wenn du nur das 37. Vorkommen von §84\n"
-"zu §85 ändern willst, dann mache §86."
+"zu §85 ändern willst, dann führe §86 aus."
 
 #. §0: $a, b,\\ldots h$
 #. §1: $(d + f) + (h + (a + c)) + (g + e + b) = a + b + c + d + e + f + g + h$
@@ -3285,8 +3308,8 @@ msgid ""
 "use it in Lean proofs. You can run the algorithm with the §1 tactic."
 msgstr ""
 "Die Implementierung des Algorithmus für die Gleichheit natürlicher Zahlen und "
-"der Beweis, dass er korrekt ist,\n"
-"sehen so aus:\n"
+"der Beweis, dass dieser korrekt ist,\n"
+"sehen wie folgt aus:\n"
 "\n"
 "§0\n"
 "\n"
@@ -3333,7 +3356,7 @@ msgstr ""
 "\n"
 "### Beispiel:\n"
 "\n"
-"Wenn dein Ziel §7 ist (so schreibt Lean §8),\n"
+"Wenn dein Ziel §7 ist (Lean schreibt dafür §8),\n"
 "dann gibt dir §9 eine Hypothese §10 namens §11, und das Ziel\n"
 "wird sich zu §12 ändern."
 
@@ -3503,23 +3526,25 @@ msgstr ""
 "## Beispiel\n"
 "\n"
 "Wenn du eine Hypothese §26 hast, dann löst §27 das Ziel, denn\n"
-"§28 kennt §29, und das genügt, um §30 zu beweisen, was jedes Ziel "
+"§28 kennt §29, und das genügt, um §30 zu beweisen, welches jedes Ziel "
 "impliziert.\n"
 "\n"
 "## Beispiel\n"
 "\n"
 "Wenn du eine Hypothese der Form §31 hast und dein Ziel §32 ist, dann\n"
 "löst §33 das Ziel, denn das Ziel ist logisch äquivalent zur Hypothese.\n"
-"Wenn du in diesem Beispiel Ziel und Hypothese vertauschst, würde §34 es "
+"Wenn du in diesem Beispiel Ziel und Hypothese vertauschst, würde §34 das Ziel "
 "ebenfalls lösen."
 
 #. §0: `rfl`
 #: Game.Levels.Tutorial.L03two_eq_ss0
 msgid "Now finish the job with §0."
-msgstr "Bring die Sache jetzt mit §0 zu Ende."
+msgstr "Schließe das Ziel nun mittels §0."
 
+# unclear what 'es' is
 #. §0: `nth_rewrite 2 [← mul_one a] at h`
 #: Game.Levels.AdvMultiplication.L10mul_right_eq_self
+#, fuzzy
 msgid "Reduce to the previous lemma with §0"
 msgstr "Führe es mit §0 auf das vorige Lemma zurück"
 
@@ -3535,7 +3560,7 @@ msgstr ""
 "§0 ist ein Beweis dafür, dass §1 gilt.\n"
 "\n"
 "Das ist eine Art zu sagen, dass ein Teiler einer positiven Zahl\n"
-"höchstens so groß wie diese Zahl sein kann."
+"höchstens so groß wie die Zahl sein kann."
 
 #. §0: $m$
 #. §1: $0 ^{\\operatorname{succ} (m)} = 0$
@@ -3685,12 +3710,14 @@ msgstr ""
 "„Fakten\\“,\n"
 "und wen kümmert es, wie die Definition der Addition lautet).*"
 
+# Mehr Hilfe statt show more help?
 #. §0: `b = 0`
 #. §1: `a * b = 0`
 #. §2: `X ≠ 0`
 #. §3: `X = 0 → False`
 #. §4: `Show more help!`
 #: Game.Levels.AdvMultiplication.L02mul_left_ne_zero
+#, fuzzy
 msgid ""
 "We want to reduce this to a hypothesis §0 and a goal §1,\n"
 "which is logically equivalent but much easier to prove. Remember that §2\n"
@@ -3707,7 +3734,7 @@ msgid ""
 "Those of you interested in speedrunning the game may want to know\n"
 "that §0 will do both rewrites at once."
 msgstr ""
-"Wer von euch am Speedrunning des Spiels interessiert ist, möchte vielleicht "
+"Wer von euch an einem Speedrun des Spiels interessiert ist, möchte vielleicht "
 "wissen,\n"
 "dass §0 beide Umschreibungen auf einmal erledigt."
 
@@ -3764,8 +3791,9 @@ msgstr ""
 "normalerweise eine gute Idee.\n"
 "\n"
 "Beweisen wir nun, dass §14 gilt. Finde heraus, wie du §15 ins\n"
-"Spiel bringst, und dann §16. Wechsle zwischen den Tabs §17 (Addition) und\n"
-"§18 (Zahlen) unter „Theorems“ rechts, um zu\n"
+"Spiel bringst, und wende dann §16 an. Wechsle zwischen den Tabs §17 "
+"(Addition) und\n"
+"§18 (Zahlen) unter „Theoreme“ rechts, um zu\n"
 "sehen, welche Beweise du zum Umschreiben verwenden kannst."
 
 #. §0: `trivial`
@@ -3810,7 +3838,6 @@ msgstr ""
 #. §4: `at`
 #. §5: `a * d = a * ?`
 #: Game.Levels.AdvMultiplication.L09mul_left_cancel
-#, fuzzy
 msgid ""
 "The inductive hypothesis §0 is \"For all natural numbers §1, §2\".\n"
 "You can §3 it §4 any hypothesis of the form §5."
@@ -3825,9 +3852,9 @@ msgid ""
 "are harder to push through than others. Can you do the inductive step in\n"
 "5 rewrites only?"
 msgstr ""
-"Du kannst über jede der drei Variablen Induktion machen. Manche Wahlen\n"
-"sind schwerer durchzubekommen als andere. Schaffst du den Induktionsschritt "
-"mit\n"
+"Du kannst über jede der drei Variablen Induktion machen. Je nach gewählter "
+"Variable ist \n"
+"der Beweis einfacher oder schwieriger. Schaffst du den Induktionsschritt mit\n"
 "nur 5 Umschreibungen?"
 
 #. §0: `0 + «{d}»`
@@ -3853,9 +3880,9 @@ msgid ""
 msgstr ""
 "Mathematikerinnen streiten manchmal darüber, was §0 ist;\n"
 "die Antwort hängt natürlich von deinen Definitionen ab. In diesem\n"
-"Spiel gilt §1. Versuch, es zu beweisen.\n"
+"Spiel gilt §1. Versuche, es zu beweisen.\n"
 "\n"
-"Sieh dir den *Pow*-Tab in deiner Liste der Sätze an,\n"
+"Sieh dir den *Pow*-Tab in deiner Liste der „Theoreme“ an,\n"
 "um die neuen verfügbaren Beweise zu sehen."
 
 #. §0: `1`
@@ -3894,9 +3921,8 @@ msgstr "add_left_eq_zero"
 
 #. §0: `rw [add_succ]`
 #: Game.Levels.Tutorial.L07add_succ Game.Levels.Tutorial.L08twoaddtwo
-#, fuzzy
 msgid "Now you can §0"
-msgstr "Jetzt kannst du §0"
+msgstr "Jetzt kannst du §0 anwenden"
 
 #. §0: `←`
 #. §1: `rw`
@@ -3917,11 +3943,13 @@ msgstr ""
 #. §0: `exact h`
 #: Game.Levels.Implication.L05succ_inj2
 msgid "You can now finish with §0."
-msgstr "Jetzt kannst du mit §0 abschließen."
+msgstr "Jetzt kannst du den Beweis mit §0 abschließen."
 
+# Titel so übersetzen?
 #: Game
+#, fuzzy
 msgid "Natural Number Game"
-msgstr "Natural Number Game"
+msgstr "Natürliche-Zahlen-Spiel"
 
 #. §0: ```
 #. rw [add_comm]
@@ -4053,7 +4081,7 @@ msgid ""
 "§3 into its parts with §4."
 msgstr ""
 "Jetzt ist §0 ein Beweis dafür, dass §1 gilt, und §2 ist verschwunden. Genauso "
-"kannst du\n"
+"kannst du auch \n"
 "§3 mit §4 in seine Teile zerlegen."
 
 #: Game.Levels.Implication.L04succ_inj
@@ -4079,7 +4107,7 @@ msgstr ""
 "## Präzises Umschreiben\n"
 "\n"
 "Im letzten Level gab es §0 und §1,\n"
-"und §2 hat das erste geändert, das es gesehen hat,\n"
+"und §2 hat das erste davon geändert, dem es begegnet ist,\n"
 "nämlich §3. Lass uns lernen, wie man Lean sagt,\n"
 "dass es zuerst §4 ändern soll, indem man §5 eine\n"
 "explizite Eingabe gibt."
@@ -4145,7 +4173,7 @@ msgid ""
 "Here's what I was thinking of:\n"
 "§0"
 msgstr ""
-"Das hatte ich mir gedacht:\n"
+"Folgendes hatte ich mir überlegt:\n"
 "§0"
 
 #. §0: `nth_rewrite 2 [two_eq_succ_one]`
@@ -4173,13 +4201,12 @@ msgstr ""
 
 #. §0: `use`
 #: Game.Levels.LessOrEqual.L04le_trans
-#, fuzzy
 msgid ""
 "Now you need to figure out which number to §0. See if you can take it from "
 "here."
 msgstr ""
 "Jetzt musst du herausfinden, welche Zahl du mit §0 angeben sollst. Schau, ob "
-"du von hier aus weiterkommst."
+"du von hier aus selbst weiterkommst."
 
 #. §0: `t : P → Q`
 #. §1: $P \\implies Q$
@@ -4386,7 +4413,7 @@ msgid ""
 msgstr ""
 "Die Totalität von §0 ist das Bosslevel dieser Welt und kommt als Nächstes. "
 "Sie besagt, dass\n"
-"für natürliche Zahlen §1 und §2 entweder §3 oder §4 gilt.\n"
+"für natürliche Zahlen §1 und §2 notwendigerweise §3 oder §4 gilt.\n"
 "Aber über §5 haben wir noch gar nicht gesprochen. Hier ist eine Übersicht.\n"
 "\n"
 "1) Die Schreibweise für „oder“ ist §6. Du wirst sie nicht tippen müssen, aber "
@@ -4396,7 +4423,7 @@ msgstr ""
 "2) Wenn du eine „oder“-Aussage im *Ziel* hast, dann bringen dich zwei "
 "Taktiken\n"
 "voran: §8 und §9. Aber wähle keine Richtung, solange deine\n"
-"Hypothesen nicht garantieren, dass sie die richtige ist.\n"
+"Hypothesen nicht garantieren, dass es die richtige ist.\n"
 "\n"
 "3) Wenn du eine „oder“-Aussage als *Hypothese* §10 hast, dann\n"
 "erzeugt §11 zwei Ziele, eines, in dem du nach links gegangen bist,\n"
@@ -4462,7 +4489,7 @@ msgid ""
 "If you have completed Algorithm World then you can use the §0 tactic\n"
 "here. If not then I'll talk you through a manual approach."
 msgstr ""
-"Wenn du die Algorithmus-Welt abgeschlossen hast, dann kannst du hier die "
+"Wenn du die Algorithmen-Welt abgeschlossen hast, dann kannst du hier die "
 "Taktik §0\n"
 "verwenden. Falls nicht, führe ich dich durch einen manuellen Ansatz."
 
@@ -4477,7 +4504,6 @@ msgstr ""
 #. §8: `h`
 #. §9: `0 = succ n`
 #: Game.Levels.Implication.L09zero_ne_succ
-#, fuzzy
 msgid ""
 "§0 is the proof that §1.\n"
 "\n"
@@ -4512,9 +4538,8 @@ msgstr ""
 #. §0: `rw [«{h}»] at «{h2}»`
 #. §1: `apply le_one at «{h2}»`
 #: Game.Levels.AdvMultiplication.L06mul_right_eq_one
-#, fuzzy
 msgid "Now §0 so you can §1."
-msgstr "Jetzt gilt §0, also kannst du §1 anwenden."
+msgstr "Jetzt §0, sodass du §1 anwenden kannst."
 
 #. §0: $x \\leq 2$
 #. §1: $x = 0$
@@ -4607,7 +4632,7 @@ msgstr ""
 "und wir wollen sie durch Induktion beweisen. Der Fall\n"
 "Null benötigt §1 (das wir haben)\n"
 "und §2 (das wir nicht haben), also fangen wir\n"
-"damit an."
+"mit Letzterem an."
 
 #. §0: `simp_add`
 #. §1: `a + (b + c) + (d + e) = e + (d + (c + b)) + a`
@@ -4630,7 +4655,7 @@ msgid ""
 "involving numerals, such as §0."
 msgstr ""
 "Wenden wir uns nun einem effizienteren Ansatz für Fragestellungen\n"
-"mit Zahlen wie §0 zu."
+"mit Zahlen wie, zum Beispiel, §0 zu."
 
 #: Game.Levels.Multiplication.L09mul_assoc
 msgid ""
@@ -4647,7 +4672,7 @@ msgstr "pow_pow"
 
 #: Game.Levels.Implication.L04succ_inj
 msgid "Now finish in one line."
-msgstr "Bring es jetzt in einer Zeile zu Ende."
+msgstr "Schließe den Beweis nun in einer Zeile ab."
 
 #. §0: `le_two x`
 #. §1: `x ≤ 2`
@@ -4725,20 +4750,20 @@ msgstr ""
 "## Zusammenfassung\n"
 "\n"
 "§2 ist eigentlich eine Funktion, die\n"
-"eine Zahl frisst und einen Beweis eines Satzes\n"
-"über diese Zahl zurückgibt. Zum Beispiel ist §3\n"
+"eine Zahl nimmt und einen Beweis eines Satzes\n"
+"über diese Zahl zurück gibt. Zum Beispiel ist §3\n"
 "ein Beweis dafür, dass §4 gilt.\n"
 "\n"
 "Die Taktik §5 akzeptiert §6\n"
-"und versucht herauszufinden, welche Zahl du einzugeben\n"
-"vergessen hast.\n"
+"und versucht herauszufinden, welche Zahl du in der Eingabe\n"
+"ausgelassen hast.\n"
 "\n"
 "## Details\n"
 "\n"
 "Eine Mathematikerin stellt sich §7\n"
 "manchmal als \\„ein Ding\\“ vor, nämlich als Beweis von §8.\n"
 "Das ist nur eine andere Art zu sagen, dass es eine Funktion ist, die\n"
-"jede Zahl n frisst und einen Beweis dafür zurückgibt, dass §9 gilt."
+"eine beliebige Zahl n frisst und einen Beweis dafür zurück gibt, dass §9 gilt."
 
 #. §0: $a$
 #. §1: $b$
@@ -4756,6 +4781,7 @@ msgstr ""
 #. §2: `rfl`
 #. §3: `rw`
 #: Game.Levels.Tutorial.L01rfl
+#, fuzzy
 msgid ""
 "Congratulations! You completed your first verified proof!\n"
 "\n"
@@ -4771,7 +4797,7 @@ msgstr ""
 "Taktik §1 möchtest,\n"
 "kannst du in der Liste der Taktiken rechts auf §2 klicken.\n"
 "\n"
-"Klicke nun auf „Next“, um die Taktik §3 kennenzulernen."
+"Klicke nun auf „Weiter“, um die Taktik §3 kennenzulernen."
 
 #. §0: $0+x=(0+y)+2$
 #. §1: $x=y+2$
@@ -4847,11 +4873,11 @@ msgid ""
 "to use induction to split into the cases where §8 and §9 is a successor."
 msgstr ""
 "Oh nein! Auf dem Weg zu §0 taucht ein wildes §1 auf. §2\n"
-"ist der Beweis dafür, dass §3 für §4 und §5 Zahlen gilt.\n"
+"ist der Beweis dafür, dass §3 für Zahlen §4 und §5 gilt.\n"
 "Dieses Ergebnis steht §6 im Weg. Wieder\n"
 "haben wir das Problem, dass wir §7 zu Dingen addieren, also müssen wir\n"
-"Induktion verwenden, um in die Fälle aufzuteilen, in denen §8 gilt und §9 ein "
-"Nachfolger ist."
+"Induktion verwenden, um in die Fälle aufzuteilen, in denen §8 gilt\n"
+"beziehungsweise §9 einNachfolger ist."
 
 #. §0: `simp`
 #. §1: `simp`
@@ -4868,8 +4894,8 @@ msgid ""
 msgstr ""
 "# Überblick\n"
 "\n"
-"Leans Vereinfacher §0 schreibt jedes mit §1\n"
-"markierte Lemma sowie jedes von der Benutzerin übergebene Lemma so weit um, "
+"Leans Vereinfacher §0 schreibt mittels jedem mit §1\n"
+"markierten Lemma sowie jedem von der Benutzerin übergebenen Lemma so weit um, "
 "wie es geht.\n"
 "Außerdem versucht er, Variablen in eine interne Reihenfolge zu bringen, wenn "
 "ihm\n"
@@ -4934,7 +4960,7 @@ msgstr ""
 "Wenn du die Ungleichungs-Welt noch nicht gemacht hast, dann können wir nicht "
 "über §3 sprechen,\n"
 "also müssen wir zum Trick greifen, §4 für §5 zu verwenden,\n"
-"was garantiert, dass es groß genug ist. Ähnlich verwenden wir statt §6 "
+"was garantiert, dass die Zahl groß genug ist. Ähnlich verwenden wir statt §6 "
 "einfach §7.\n"
 "\n"
 "Dieses Level sieht oberflächlich aus wie andere Level, die wir gesehen "
@@ -4947,7 +4973,7 @@ msgstr ""
 "\n"
 "## GLÜCKWUNSCH!\n"
 "\n"
-"Du hast die Hauptquest des Natural Number Game abgeschlossen!\n"
+"Du hast die Hauptquest des Natürliche-Zahlen-Spiels abgeschlossen!\n"
 "Wenn du mehr darüber erfahren möchtest, wie man mit Lean\n"
 "Sätze in der Mathematik beweist, dann wirf einen Blick\n"
 "auf [Mathematics In Lean](https://leanprover-community.github.io/"
@@ -4956,10 +4982,11 @@ msgstr ""
 "und das erklärt, wie man mit vielen weiteren mathematischen Konzepten in Lean "
 "arbeitet."
 
+# unclear if command / imperative
 #: Game.Levels.Algorithm.L09decide2
 #, fuzzy
 msgid "decide again"
-msgstr "decide noch einmal"
+msgstr "noch einmal „decide“ anwenden"
 
 #: Game.Levels.LessOrEqual.L03le_succ_self
 msgid "x ≤ succ x"
@@ -4969,8 +4996,8 @@ msgstr "x ≤ succ x"
 msgid ""
 "Can you take it from here? Click on \"Show more help!\" if you need a hint."
 msgstr ""
-"Kommst du ab hier alleine weiter? Klicke auf „Show more help!“, wenn du einen "
-"Tipp brauchst."
+"Kommst du ab hier alleine weiter? Klicke auf „Mehr Hilfe“, wenn du einen Tipp "
+"brauchst."
 
 #. §0: `contrapose! h`
 #. §1: `succ m = succ n`
@@ -4995,7 +5022,7 @@ msgid ""
 "on §0 or §1 is the best idea."
 msgstr ""
 "Du solltest vielleicht darüber nachdenken, ob Induktion\n"
-"über §0 oder §1 die beste Idee ist."
+"über §0 oder über §1 die beste Idee ist."
 
 #. §0: `le_trans x y z`
 #. §1: `x ≤ y`
@@ -5041,9 +5068,11 @@ msgstr ""
 "§14 verwenden; für sie bedeutet das üblicherweise, dass §15\n"
 "und §16 gelten."
 
+# unclear without context
 #: Game.Levels.Algorithm.L02add_algo1
+#, fuzzy
 msgid "making life easier"
-msgstr "das Leben leichter machen"
+msgstr "sich das Leben leichter machen"
 
 #. §0: `add_succ`
 #: Game.Levels.Addition.L01zero_add
@@ -5366,7 +5395,7 @@ msgstr ""
 "Sieh dir den neuen „*“-Reiter bei deinen Lemmata an, der §0 und §1 enthält.\n"
 "Im Moment sind das die einzigen Fakten, die wir über die Multiplikation "
 "kennen.\n"
-"Beweisen wir neun weitere.\n"
+"Lass uns neun weitere beweisen.\n"
 "\n"
 "Beginnen wir mit einer Aufwärmübung: Für diese ist keine Induktion nötig,\n"
 "weil wir wissen, dass §2 ein Nachfolger ist."
@@ -5497,7 +5526,7 @@ msgstr ""
 "§2\n"
 "\n"
 "Wir können nicht Eins von 0 abziehen, deshalb geben wir einfach einen "
-"Schrottwert\n"
+"Unsinnswert\n"
 "zurück. Zusätzlich zu dieser Definition erstellen wir auch ein neues Lemma "
 "§3, das\n"
 "besagt, dass §4 gilt. Verwenden wir dieses Lemma, um §5 zu beweisen, den "
@@ -5540,7 +5569,7 @@ msgstr ""
 "so weit um, wie er kann.\n"
 "\n"
 "Dieses Level willst du nicht von Hand lösen.\n"
-"Lass den Vereinfacher es für dich lösen."
+"Lass es dir von dem Vereinfacher lösen."
 
 #. §0: `h : X = Y`
 #. §1: `X`
@@ -5677,7 +5706,7 @@ msgstr ""
 "Sinn dieser\n"
 "Welt ist es, dir zu zeigen, wie man solche Ergebnisse *beweist*.\n"
 "\n"
-"Wenn du dein Ziel in §9 umwandeln kannst, dann löst es die Taktik §10."
+"Wenn du dein Ziel in §9 umwandeln kannst, dann löst die Taktik §10 den Rest."
 
 #: Game.Levels.AdvMultiplication.L08mul_eq_zero
 msgid "mul_eq_zero"
@@ -5749,7 +5778,6 @@ msgstr ""
 "widersprüchlich sind, was sie in diesem Level auch sind."
 
 #: Game.Levels.LessOrEqual.L04le_trans
-#, fuzzy
 msgid "x ≤ y and y ≤ z implies x ≤ z"
 msgstr "aus x ≤ y und y ≤ z folgt x ≤ z"
 
@@ -5782,7 +5810,7 @@ msgid ""
 "the proof §11; now try proving §12."
 msgstr ""
 "Wir wissen, dass §0 ein Beweis von §1 ist – aber was,\n"
-"wenn wir eine Hypothese §2 haben? Sie ist andersherum!\n"
+"wenn wir eine Hypothese §2 haben? Sie ist falsch herum!\n"
 "\n"
 "Die Taktik §3 ändert ein Ziel §4 zu §5 und ein Ziel §6\n"
 "zu §7. Und §8\n"
@@ -5799,13 +5827,12 @@ msgstr ""
 #. §0: `use`
 #. §1: `use`
 #: Game.Levels.LessOrEqual.L03le_succ_self
-#, fuzzy
 msgid ""
 "If you §0 the wrong number, you get stuck with a goal you can't prove.\n"
 "What number will you §1 here?"
 msgstr ""
 "Wenn du §0 mit der falschen Zahl aufrufst, bleibst du bei einem Ziel hängen,\n"
-"das du nicht beweisen kannst. Welche Zahl wirst du hier §1?"
+"das du nicht beweisen kannst. Welche Zahl wirst du hier mit §1 benutzen?"
 
 #: Game.Levels.Multiplication.L04mul_comm
 msgid "Multiplication is commutative."
@@ -5831,8 +5858,8 @@ msgstr ""
 "Das letzte Level aus der Additions-Welt könnte dir in diesem Level helfen.\n"
 "Falls du dich nicht mehr erinnerst, was es ist, kannst du über einen Klick "
 "auf\n"
-"das Haussymbol zum Startbildschirm zurückkehren und es dir ansehen.\n"
-"Du verlierst dabei keinen Fortschritt."
+"das Haus-Symbol zum Startbildschirm zurückkehren und es dir ansehen.\n"
+"Du verlierst dabei deinen Fortschritt nicht."
 
 #. §0: `intro h`
 #: Game.Levels.Implication.L09zero_ne_succ Game.Levels.LessOrEqual.L04le_trans
@@ -5862,7 +5889,7 @@ msgid ""
 "§2 means §3."
 msgstr ""
 "Variablen von Hand mit Kommutativität und Assoziativität umzuordnen, ist\n"
-"sehr mühsam. Wir beginnen damit, dich daran zu erinnern. §0\n"
+"sehr mühsam. Wir beginnen damit, dich daran zu erinnern. Das Lemma §0\n"
 "ist ein zentraler Bestandteil des ersten Algorithmus, den wir erklären "
 "werden,\n"
 "aber wir müssen es von Hand beweisen.\n"
@@ -5895,7 +5922,6 @@ msgstr "Und schließlich §0."
 #. §12: `a * b = b * a`
 #. §13: `a * (b + c) = a * b + a * c`
 #: Game.Levels.Multiplication
-#, fuzzy
 msgid ""
 "How should we define §0? Just like addition, we need to give definitions\n"
 "when §1 and when §2 is a successor.\n"
@@ -5982,7 +6008,7 @@ msgstr ""
 "Was hältst du von diesem Zweizeiler:\n"
 "§0\n"
 "\n"
-"§1 nimmt nicht nur Hypothesen, sondern verschlingt jeden Beweis, der\n"
+"§1 nimmt nicht nur Hypothesen, sondern akzeptiert jeden Beweis, der\n"
 "im System existiert."
 
 #: Game.Levels.LessOrEqual.L09succ_le_succ
@@ -6091,7 +6117,7 @@ msgstr ""
 "\n"
 "Ich habe versteckte Hinweise hinterlassen; wenn du sie brauchst, beginne von "
 "vorn\n"
-"und klicke auf „Show more help!“."
+"und klicke auf „Mehr Hilfe“."
 
 #. §0: `ℕ`
 #: Game.Levels.LessOrEqual.L08le_total
@@ -6137,7 +6163,7 @@ msgstr ""
 "Hier ist ein zweizeiliger Beweis von §1, der §2 verwendet.\n"
 "Wenn du ihn untersuchen möchtest, kannst du in den Editor-Modus wechseln, "
 "indem du oben rechts auf §3 klickst,\n"
-"und dann den Beweis einfach ausschneiden und einfügen und deinen Cursor darin "
+"und dann den Beweis einfach kopieren und einfügen und deinen Cursor darin "
 "bewegen,\n"
 "um die Hypothesen und das Ziel an jeder beliebigen Stelle zu sehen\n"
 "(auch wenn du auf diese Weise deinen eigenen Beweis verlierst). Klicke auf "
@@ -6287,12 +6313,14 @@ msgstr ""
 "eine\n"
 "der Hypothesen ist. Sie nimmt den Namen der Hypothese als Argument: §4."
 
+# unclear if fitting the context
 #: Game.Levels.Algorithm.L02add_algo1
+#, fuzzy
 msgid ""
 "So that's the algorithm: now let's use automation to perform it\n"
 "automatically."
 msgstr ""
-"Das ist also der Algorithmus: Nutzen wir nun die Automatisierung, um ihn "
+"Das ist also der Algorithmus: Nutzen wir nun Automatisierung, um ihn "
 "automatisch\n"
 "auszuführen."
 
@@ -6502,7 +6530,7 @@ msgstr ""
 "Wir haben bewiesen, dass §0 die Aussage §1 impliziert. Die letzten beiden "
 "Level\n"
 "in dieser Welt werden beweisen, welche Zahlen §2 und §3 sind.\n"
-"Dieses Lemma wird ihnen dabei helfen."
+"Dieses Lemma wird dabei helfen."
 
 #. §0: `cases «{e}» with a`
 #: Game.Levels.LessOrEqual.L08le_total
@@ -6553,7 +6581,6 @@ msgstr "Level abgeschlossen! 🎉"
 #. §1: `rw [mul_comm]`
 #. §2: `rw`
 #: Game.Levels.Power.L07mul_pow
-#, fuzzy
 msgid ""
 "The music gets ever more dramatic, as we explore\n"
 "the interplay between exponentiation and multiplication.\n"
@@ -6656,7 +6683,7 @@ msgstr ""
 "Strategie\n"
 "besteht darin, sowohl §3 als auch §4 als §5 von etwas zu schreiben, daraus "
 "zu\n"
-"folgern, dass §6 ebenfalls §7 von etwas ist, und dann §8."
+"folgern, dass §6 ebenfalls §7 von etwas ist, und dann §8 anzuwenden ."
 
 #: Game.Levels.Power.L02zero_pow_succ
 msgid "zero_pow_succ"
@@ -6681,7 +6708,7 @@ msgstr ""
 
 #: Game.Levels.Algorithm
 msgid "Algorithm World"
-msgstr "Algorithmus-Welt"
+msgstr "Algorithmen-Welt"
 
 #. §0: `add_succ a b`
 #. §1: `a + succ b = succ (a + b)`
@@ -6711,7 +6738,9 @@ msgstr ""
 "gesagt\n"
 "ist §1 der Beweis dafür, dass §2 gilt."
 
+# check context
 #: Game.Levels.Tutorial.L04rw_backwards
+#, fuzzy
 msgid "rewriting backwards"
 msgstr "rückwärts umschreiben"
 
