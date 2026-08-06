@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Game v4.23.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-20\n"
-"PO-Revision-Date: 2026-07-26 21:08+0200\n"
+"PO-Revision-Date: 2026-08-03 23:44+0200\n"
 "Last-Translator: leo <leonid@ryvkin.eu>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.04.3\n"
+"X-Generator: Poedit 3.9\n"
 
 #: Game.Levels.LessOrEqual.L10le_one
 msgid "x ≤ 1"
@@ -477,8 +477,7 @@ msgstr "zero_pow_zero"
 #. §1: `b`
 #: Game.Levels.Addition.L03add_comm
 msgid "Induction on §0 or §1 -- it's all the same in this one."
-msgstr ""
-"Induktion über §0 oder §1 – in diesem Fall macht es keinen Unterschied."
+msgstr "Induktion über §0 oder §1 – in diesem Fall macht es keinen Unterschied."
 
 #: Game.Levels.Power.L05pow_two
 msgid "Note: this lemma will be useful for the final boss!"
@@ -501,7 +500,7 @@ msgid ""
 "If you want to begin your journey to the final boss, head for Power World."
 msgstr ""
 "Eine vorbeikommende Mathematikerin bemerkt, dass du bewiesen hast,\n"
-"dass die natürlichen Zahlen ein kommutativer Halbring sind.\n"
+"dass die natürlichen Zahlen einen kommutativen Halbring sind.\n"
 "\n"
 "Wenn du deine Reise zum Endboss beginnen willst, mach dich auf zur Potenz-"
 "Welt."
@@ -1204,6 +1203,7 @@ msgstr ""
 "indem wir unsere Hypothese so lange umformen, bis sie zum Ziel wird. Ich\n"
 "werde dich durch dieses Level führen."
 
+# should this not be 'Theoreme' and 'Theorems' in English?
 #. §0: `2 + 2 ≠ 5`
 #. §1: `0 ≠ 1`
 #. §2: `zero_ne_succ n`
@@ -2495,7 +2495,7 @@ msgstr ""
 msgid "§0"
 msgstr "§0"
 
-# better word than 
+# better word than
 # aufgefaltet?
 #. §0: `zero_ne_succ`
 #. §1: `succ_inj`
@@ -2508,9 +2508,8 @@ msgid ""
 msgstr ""
 "2 + 2 ≠ 5 vollständig zu beweisen ist langweilig, wenn man nur die Werkzeuge "
 "hat, die wir momentan haben.\n"
-"Um es etwas weniger schmerzhaft zu machen, habe ich alle Zahlen bereits für di"
-"ch "
-"aufgefaltet.\n"
+"Um es etwas weniger schmerzhaft zu machen, habe ich alle Zahlen bereits für "
+"dich aufgefaltet.\n"
 "Schau, ob du §0 und §1 benutzen kannst, um das Ziel zu beweisen."
 
 #. §0: $x$
@@ -5936,7 +5935,7 @@ msgstr ""
 "angeben, für den Fall, dass §1 gilt, und für den Fall, dass §2 ein Nachfolger "
 "ist.\n"
 "\n"
-"Der Nullfall ist einfach: Wir definieren §3 als §4. Nehmen wir nun an, wir "
+"Der Null-Fall ist einfach: Wir definieren §3 als §4. Nehmen wir nun an, wir "
 "wissen\n"
 "§5. Was sollte §6 sein? Nun, das sind §7 Kopien von §8,\n"
 "also sollte es §9 sein.\n"
@@ -6455,8 +6454,8 @@ msgid ""
 "This level is more important than you think; it plays\n"
 "a useful role when battling a big boss later on."
 msgstr ""
-"Dieses Level ist wichtiger, als du denkst; es spielt\n"
-"eine nützliche Rolle, wenn du später gegen einen großen Boss kämpfst."
+"Dieses Level ist wichtiger, als du denkst; es wird nützlich sein, \n"
+"wenn du später gegen einen großen Boss kämpfst."
 
 #. §0: `cases h2 with h0 h1`
 #: Game.Levels.AdvMultiplication.L06mul_right_eq_one
@@ -6583,8 +6582,8 @@ msgstr ""
 "Die Musik wird immer dramatischer, während wir das Zusammenspiel\n"
 "zwischen Potenzierung und Multiplikation erkunden.\n"
 "\n"
-"Wenn du Schwierigkeiten hast, die richtige §0 auszutauschen,\n"
-"weil §1 die falsche Multiplikation vertauscht,\n"
+"Wenn du Schwierigkeiten hast, die richtigen §0 zu vertauschen,\n"
+"weil §1 an der falschen Multiplikation ansetzt,\n"
 "dann lies die Dokumentation von §2 für Tipps, wie du das beheben kannst."
 
 #. §0: `le_total x y`
