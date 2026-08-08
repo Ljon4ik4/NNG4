@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Game v4.23.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-20\n"
-"PO-Revision-Date: 2026-08-08 22:02+0200\n"
+"PO-Revision-Date: 2026-08-08 22:14+0200\n"
 "Last-Translator: leo <leonid@ryvkin.eu>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: de\n"
@@ -649,6 +649,7 @@ msgstr "Additions-Welt"
 #. §22: `rw`
 #. §23: `add_zero`
 #: Game.Levels.Implication.L01exact
+#, fuzzy
 msgid ""
 "## Summary\n"
 "\n"
@@ -1022,6 +1023,7 @@ msgstr "Wenn §0 und §1, dann können wir einen Widerspruch herleiten."
 #. §20: `add_zero x : x + 0 = x`
 #. §21: `proof : statement`
 #: Game.Levels.Tutorial.L05add_zero
+#, fuzzy
 msgid ""
 "We'd like to prove §0 but right now\n"
 "we can't even *state* it\n"
@@ -1210,6 +1212,7 @@ msgstr ""
 #. §2: `zero_ne_succ n`
 #. §3: `0 ≠ succ n`
 #: Game.Levels.Implication.L09zero_ne_succ
+#, fuzzy
 msgid ""
 "As warm-up for §0 let's prove §1. To do this we need to\n"
 "introduce Peano's last axiom §2, a proof that §3.\n"
@@ -1971,9 +1974,6 @@ msgstr "§0 ist der Beweis §1."
 msgid "making life simple"
 msgstr "sich das Leben einfach machen"
 
-# damit das Ziel\n
-# gleich der Hypothese wird.
-# klingt komisch
 #. §0: `four_eq_succ_three`
 #: Game.Levels.Implication.L05succ_inj2
 msgid ""
@@ -2024,6 +2024,7 @@ msgstr ""
 #. §0: $n = 0$
 #. §1: `X = Y`
 #: Game.Levels.Addition.L01zero_add
+#, fuzzy
 msgid ""
 "Now you have two goals. Once you proved the first, you will jump to the "
 "second one.\n"
@@ -2494,8 +2495,6 @@ msgstr ""
 msgid "§0"
 msgstr "§0"
 
-# better word than
-# aufgefaltet?
 #. §0: `zero_ne_succ`
 #. §1: `succ_inj`
 #: Game.Levels.Implication.L11two_add_two_ne_five
@@ -2551,6 +2550,7 @@ msgstr ""
 
 # Hier Übersetzernamen?
 #: Game
+#, fuzzy
 msgid ""
 "*Game version: 4.3*\n"
 "\n"
@@ -3707,6 +3707,7 @@ msgstr ""
 #. §3: `X = 0 → False`
 #. §4: `Show more help!`
 #: Game.Levels.AdvMultiplication.L02mul_left_ne_zero
+#, fuzzy
 msgid ""
 "We want to reduce this to a hypothesis §0 and a goal §1,\n"
 "which is logically equivalent but much easier to prove. Remember that §2\n"
@@ -3748,6 +3749,7 @@ msgstr ""
 #. §17: `+`
 #. §18: `012`
 #: Game.Levels.Tutorial.L07add_succ
+#, fuzzy
 msgid ""
 "Every number in Lean is either §0 or a successor. We know how to add §1,\n"
 "but we need to figure out how to add successors. Let's say we already know\n"
@@ -6295,7 +6297,6 @@ msgstr ""
 "eine\n"
 "der Hypothesen ist. Sie nimmt den Namen der Hypothese als Argument: §4."
 
-# unclear if fitting the context
 #: Game.Levels.Algorithm.L02add_algo1
 msgid ""
 "So that's the algorithm: now let's use automation to perform it\n"
