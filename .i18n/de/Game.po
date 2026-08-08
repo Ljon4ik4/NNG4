@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Game v4.23.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-20\n"
-"PO-Revision-Date: 2026-08-03 23:44+0200\n"
+"PO-Revision-Date: 2026-08-08 22:02+0200\n"
 "Last-Translator: leo <leonid@ryvkin.eu>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: Game.Levels.LessOrEqual.L10le_one
 msgid "x ≤ 1"
@@ -317,12 +317,12 @@ msgstr ""
 "zu machen.\n"
 "In der Algorithmen-Welt, einer eher Informatik-lastigen Welt, werden wir "
 "Maschinerie entwickeln, die\n"
-"Fragen wie diese viel einfacher und Ziele wie §1 machbar macht.\n"
+"Fragen wie diese viel einfacher und Ziele wie §1 lösbar macht.\n"
 "Alternativ kannst du mehr Mathematik in der Fortgeschrittenen Additions-Welt "
 "betreiben, wo wir\n"
 "die Lemmata beweisen, die man für eine funktionierende Theorie der "
 "Ungleichungen braucht.\n"
-"Klicke auf „Home“ und entscheide deinen Weg."
+"Klicke auf „Home“ und entscheide dich für einen Weg."
 
 # Theorem = Satz added here
 #. §0: `2 + 2 = 4`
@@ -477,7 +477,8 @@ msgstr "zero_pow_zero"
 #. §1: `b`
 #: Game.Levels.Addition.L03add_comm
 msgid "Induction on §0 or §1 -- it's all the same in this one."
-msgstr "Induktion über §0 oder §1 – in diesem Fall macht es keinen Unterschied."
+msgstr ""
+"Induktion über §0 oder §1 – in diesem Fall macht es keinen Unterschied."
 
 #: Game.Levels.Power.L05pow_two
 msgid "Note: this lemma will be useful for the final boss!"
@@ -1368,11 +1369,9 @@ msgstr ""
 "auf den Namen der Taktik,\n"
 "um zu sehen, was sie tut."
 
-# zerlegen?
 #. §0: `cases`
 #. §1: `hxy`
 #: Game.Levels.LessOrEqual.L04le_trans
-#, fuzzy
 msgid ""
 "In this level, we see inequalities as *hypotheses*. We have not seen this "
 "before.\n"
@@ -1748,6 +1747,7 @@ msgstr ""
 "Wir wissen noch nicht, ob wir nach links oder rechts gehen sollten. Beginne "
 "also mit §0."
 
+# Full stop after formula 1 does not work well with German sentence-building
 #. §0: $2$
 #. §1: $2 = 37 × 42.$
 #. §2: $2$
@@ -1756,6 +1756,7 @@ msgstr ""
 #. §5: `one_le_of_ne_zero`
 #. §6: `mul_le_mul_right`
 #: Game.Levels.AdvMultiplication.L05le_mul_right
+#, fuzzy
 msgid ""
 "One day this game will have a Prime Number World, with a final boss\n"
 "of proving that §0 is prime.\n"
@@ -1944,7 +1945,7 @@ msgstr ""
 "Aber halt! Dieser Boss regt sich...und verwandelt sich in eine zweite, "
 "mächtigere Form!"
 
-# inhaltlich umgekehrt, auch im Englischen?
+# should it not rather be multiplication distributive over addition?
 #. §0: $a$
 #. §1: $b$
 #. §2: $c$
@@ -1966,9 +1967,7 @@ msgstr ""
 msgid "§0 is the proof §1."
 msgstr "§0 ist der Beweis §1."
 
-# im Kontext verifizieren
 #: Game.Levels.Algorithm.L03add_algo2
-#, fuzzy
 msgid "making life simple"
 msgstr "sich das Leben einfach machen"
 
@@ -2856,7 +2855,7 @@ msgid ""
 "§0 is the theorem that §1\n"
 "Two ways to do it spring to mind; I'll mention them when you've solved it."
 msgstr ""
-"§0 ist der Satz, dass §1 gilt\n"
+"§0 ist der Satz, dass §1\n"
 "Mir fallen zwei Wege ein, dies zu beweisen; ich erwähne sie, wenn du das "
 "Level gelöst hast."
 
@@ -3535,10 +3534,8 @@ msgstr ""
 msgid "Now finish the job with §0."
 msgstr "Schließe das Ziel nun mittels §0."
 
-# unclear what 'es' is
 #. §0: `nth_rewrite 2 [← mul_one a] at h`
 #: Game.Levels.AdvMultiplication.L10mul_right_eq_self
-#, fuzzy
 msgid "Reduce to the previous lemma with §0"
 msgstr "Führe es mit §0 auf das vorige Lemma zurück"
 
@@ -3710,13 +3707,12 @@ msgstr ""
 #. §3: `X = 0 → False`
 #. §4: `Show more help!`
 #: Game.Levels.AdvMultiplication.L02mul_left_ne_zero
-#, fuzzy
 msgid ""
 "We want to reduce this to a hypothesis §0 and a goal §1,\n"
 "which is logically equivalent but much easier to prove. Remember that §2\n"
 "is notation for §3. Click on §4 if you need hints."
 msgstr ""
-"Wir wollen dies auf eine Hypothese §0 und ein Ziel §1 zurückführen,\n"
+"Wir wollen diese Aufgabe auf eine Hypothese §0 und ein Ziel §1 zurückführen,\n"
 "was logisch äquivalent, aber viel einfacher zu beweisen ist. Denk daran, dass "
 "§2\n"
 "eine Schreibweise für §3 ist. Klicke auf §4, wenn du Hinweise brauchst."
@@ -3931,8 +3927,8 @@ msgid ""
 msgstr ""
 "Du kannst ein §0 vor jeden Satz setzen, den du an §1 übergibst, um in die "
 "andere\n"
-"Richtung umzuschreiben. Schau dir für eine Erklärung die Doku zu §2 an. Tippe "
-"§3 mit §4."
+"Richtung umzuschreiben. Schau dir für eine Erklärung die Dokumentation zu §2 "
+"an. Tippe §3 mit §4."
 
 #. §0: `exact h`
 #: Game.Levels.Implication.L05succ_inj2
@@ -4973,9 +4969,7 @@ msgstr ""
 "und das erklärt, wie man mit vielen weiteren mathematischen Konzepten in Lean "
 "arbeitet."
 
-# unclear if command / imperative
 #: Game.Levels.Algorithm.L09decide2
-#, fuzzy
 msgid "decide again"
 msgstr "noch einmal „decide“ anwenden"
 
@@ -5059,9 +5053,7 @@ msgstr ""
 "§14 verwenden; für sie bedeutet das üblicherweise, dass §15\n"
 "und §16 gelten."
 
-# unclear without context
 #: Game.Levels.Algorithm.L02add_algo1
-#, fuzzy
 msgid "making life easier"
 msgstr "sich das Leben leichter machen"
 
@@ -6305,13 +6297,12 @@ msgstr ""
 
 # unclear if fitting the context
 #: Game.Levels.Algorithm.L02add_algo1
-#, fuzzy
 msgid ""
 "So that's the algorithm: now let's use automation to perform it\n"
 "automatically."
 msgstr ""
-"Das ist also der Algorithmus: Nutzen wir nun Automatisierung, um ihn "
-"automatisch\n"
+"Das ist also der Algorithmus: Nutzen wir nun Automatisierung, um ihn automatis"
+"ch\n"
 "auszuführen."
 
 #. §0: `x + y = 0 → x = 0`
@@ -6728,9 +6719,7 @@ msgstr ""
 "gesagt\n"
 "ist §1 der Beweis dafür, dass §2 gilt."
 
-# check context
 #: Game.Levels.Tutorial.L04rw_backwards
-#, fuzzy
 msgid "rewriting backwards"
 msgstr "rückwärts umschreiben"
 
