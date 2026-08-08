@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Game v4.23.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-20\n"
-"PO-Revision-Date: 2026-08-08 22:14+0200\n"
+"PO-Revision-Date: 2026-08-08 22:22+0200\n"
 "Last-Translator: leo <leonid@ryvkin.eu>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: de\n"
@@ -266,7 +266,6 @@ msgstr ""
 msgid "Try §0 to change §1 into §2."
 msgstr "Versuche §0, um §1 in §2 umzuwandeln."
 
-# better word than entpacken?
 #. §0: `1`
 #: Game.Levels.Tutorial.L07add_succ
 msgid "Start by unravelling the §0."
