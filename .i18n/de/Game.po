@@ -582,7 +582,7 @@ msgstr ""
 #. §1: `b`
 #. §2: `d`
 #: Game.Levels.Algorithm.L02add_algo1
-msgid "Finally use a targeted §0 to switch §1 and §2"
+msgid "Finally use a targeted §0 to switch §1 and §2."
 msgstr "Verwende schließlich ein gezieltes §0, um §1 und §2 zu vertauschen"
 
 #. §0: `repeat t`
@@ -2468,7 +2468,7 @@ msgid ""
 "\n"
 "§0 tries to fill in\n"
 "the arguments to §1 (finding §2) then it replaces all occurrences of\n"
-"§3 it finds. Therefor, it did not rewrite §4, yet."
+"§3 it finds. Therefore, it did not rewrite §4, yet."
 msgstr ""
 "Mach das noch einmal!\n"
 "\n"
@@ -2917,7 +2917,7 @@ msgstr "Lass uns nun Peanos zweites Axiom für die Addition kennenlernen, §0."
 #. §4: `apply`
 #: Game.Levels.Implication.L03apply
 msgid ""
-"In this level, the hypotheses §0 is an *implication*. It says\n"
+"In this level, the hypothesis §0 is an *implication*. It says\n"
 "that *if* §1 *then* §2. We can use this\n"
 "hypothesis with the §3 tactic. Remember you can click on\n"
 "§4 or any other tactic on the right to see a detailed explanation\n"
