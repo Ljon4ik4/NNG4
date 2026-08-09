@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Game v4.23.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-20\n"
-"PO-Revision-Date: 2026-08-08 22:22+0200\n"
+"PO-Revision-Date: 2026-08-09 21:20+0200\n"
 "Last-Translator: leo <leonid@ryvkin.eu>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: de\n"
@@ -583,7 +583,7 @@ msgstr ""
 #. §2: `d`
 #: Game.Levels.Algorithm.L02add_algo1
 msgid "Finally use a targeted §0 to switch §1 and §2."
-msgstr "Verwende schließlich ein gezieltes §0, um §1 und §2 zu vertauschen"
+msgstr "Verwende schließlich ein gezieltes §0, um §1 und §2 zu vertauschen."
 
 #. §0: `repeat t`
 #. §1: `t`
@@ -622,7 +622,6 @@ msgstr ""
 msgid "Addition World"
 msgstr "Additions-Welt"
 
-# und wie genau sollte ich \\ vor den Anführungszeichen verstehen (auch anderswo)?
 #. §0: `P`
 #. §1: `exact h`
 #. §2: `h`
@@ -648,7 +647,6 @@ msgstr "Additions-Welt"
 #. §22: `rw`
 #. §23: `add_zero`
 #: Game.Levels.Implication.L01exact
-#, fuzzy
 msgid ""
 "## Summary\n"
 "\n"
@@ -998,7 +996,7 @@ msgstr "§0 ist die Aussage, dass §1 gilt"
 msgid "If §0 and §1 then we can deduce a contradiction."
 msgstr "Wenn §0 und §1, dann können wir einen Widerspruch herleiten."
 
-# proof: statment appears twice, I don't know how to translate code listings.
+# &21 removed from the German, because needed to be translated manually
 #. §0: `2 + 2 = 4`
 #. §1: $37$
 #. §2: $x$
@@ -1068,7 +1066,7 @@ msgstr ""
 "§16 ist ein Beweis von §17 und §18 ist ein Beweis\n"
 "von §19.\n"
 "\n"
-"Wir schreiben §20, also §21 („Beweis : Aussage“)."
+"Wir schreiben §20, also „Beweis : Aussage“."
 
 #. §0: `t = 0`
 #: Game.Levels.AdvMultiplication.L01mul_le_mul_right
@@ -1771,7 +1769,7 @@ msgid ""
 msgstr ""
 "Eines Tages wird dieses Spiel eine Primzahlen-Welt haben, mit einem Endboss,\n"
 "bei dem zu beweisen ist, dass §0 eine Primzahl ist.\n"
-"Dazu müssen wir Dinge wie §1 ausschließen.\n"
+"Dazu müssen wir Dinge wie 2 = 37 × 42 ausschließen.\n"
 "Das machen wir, indem wir beweisen, dass jeder Faktor von §2 höchstens §3 "
 "ist,\n"
 "wozu wir dieses Lemma verwenden werden. Der Beweis, den ich im Sinn habe, "
@@ -3699,14 +3697,13 @@ msgstr ""
 "Typtheoretikerinnen (§18 und §19 sind für Mathematikerinnen beides „Fakten“,\n"
 "und wen kümmert es, wie die Definition der Addition lautet).*"
 
-# Mehr Hilfe statt show more help?
+# removed §4 because it needs to be translated
 #. §0: `b = 0`
 #. §1: `a * b = 0`
 #. §2: `X ≠ 0`
 #. §3: `X = 0 → False`
 #. §4: `Show more help!`
 #: Game.Levels.AdvMultiplication.L02mul_left_ne_zero
-#, fuzzy
 msgid ""
 "We want to reduce this to a hypothesis §0 and a goal §1,\n"
 "which is logically equivalent but much easier to prove. Remember that §2\n"
@@ -3715,7 +3712,8 @@ msgstr ""
 "Wir wollen diese Aufgabe auf eine Hypothese §0 und ein Ziel §1 zurückführen,\n"
 "was logisch äquivalent, aber viel einfacher zu beweisen ist. Denk daran, dass "
 "§2\n"
-"eine Schreibweise für §3 ist. Klicke auf §4, wenn du Hinweise brauchst."
+"eine Schreibweise für §3 ist. Klicke auf 'Mehr Hilfe', wenn du Hinweise "
+"brauchst."
 
 #. §0: `repeat rw [add_zero]`
 #: Game.Levels.Tutorial.L05add_zero
@@ -6301,8 +6299,8 @@ msgid ""
 "So that's the algorithm: now let's use automation to perform it\n"
 "automatically."
 msgstr ""
-"Das ist also der Algorithmus: Nutzen wir nun Automatisierung, um ihn automatis"
-"ch\n"
+"Das ist also der Algorithmus: Nutzen wir nun Automatisierung, um ihn "
+"automatisch\n"
 "auszuführen."
 
 #. §0: `x + y = 0 → x = 0`
